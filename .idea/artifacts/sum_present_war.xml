@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sum-present:war">
+    <output-path>$PROJECT_DIR$/sum-present/target</output-path>
+    <root id="archive" name="sum-present-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="sum-present:war exploded" />
+    </root>
+  </artifact>
+</component>
