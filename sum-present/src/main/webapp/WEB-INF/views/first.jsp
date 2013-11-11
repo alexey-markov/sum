@@ -4,19 +4,19 @@
 <head>
     <meta charset="utf-8"/>
     <title>jQuery UI Draggable - Default functionality</title>
-    <link rel="stylesheet" href="../../css/jquery-ui.css"/>
-    <link rel="stylesheet" href="../../css/demo_page.css"/>
-    <link rel="stylesheet" href="../../css/demo_table.css"/>
-    <script src="../../js/lib/jquery-1.9.1.js"></script>
-    <script src="../../js/lib/jquery-ui.js"></script>
-    <script src="../../js/lib/jquery.dataTables.js"></script>
-    <script src="../../js/lib/jquery.jeditable.js"></script>
-    <script src="../../js/lib/jquery.jeditable.datepicker.js"></script>
-    <script src="../../js/lib/jquery.json-2.4.js"></script>
-    <script src="../../js/balance.js"></script>
-    <script src="../../js/basket.js"></script>
-    <script src="../../js/currency.js"></script>
-    <script src="../../js/category.js"></script>
+    <link rel="stylesheet" href="css/jquery-ui.css"/>
+    <link rel="stylesheet" href="css/demo_page.css"/>
+    <link rel="stylesheet" href="css/demo_table.css"/>
+    <script src="js/lib/jquery-1.9.1.js"></script>
+    <script src="js/lib/jquery-ui.js"></script>
+    <script src="js/lib/jquery.dataTables.js"></script>
+    <script src="js/lib/jquery.jeditable.js"></script>
+    <script src="js/lib/jquery.jeditable.datepicker.js"></script>
+    <script src="js/lib/jquery.json-2.4.js"></script>
+    <script src="js/balance.js"></script>
+    <script src="js/basket.js"></script>
+    <script src="js/currency.js"></script>
+    <script src="js/category.js"></script>
     <style>
         #table {
             width: 150px;
@@ -24,11 +24,10 @@
             padding: 0.5em;
         }
     </style>
-    <sec:authentication property="principal.username"/>
     <script>
         $(document).ready(function () {
-            console.log(${principal.username});
-            console.log(${username});
+            var user = '${username}';
+            console.log('user = ' + user);
             var balance = new Balance($('#example'));
             balance.load(balance);
         });
