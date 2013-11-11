@@ -17,7 +17,7 @@ public class Security implements ISecurity {
     }
 
     @Override
-    public User getUsersList(String username) {
+    public User users(String username) {
         return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
 }

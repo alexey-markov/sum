@@ -19,7 +19,7 @@ public class SSecurity implements ISecurity {
     @Resource(name = "security")
     private ISecurity security;
 
-    public User getUsersList(String username) {
+    public User users(String username) {
         return null;  //To change body of created methods use File | Settings | File Templates.
     }
 }

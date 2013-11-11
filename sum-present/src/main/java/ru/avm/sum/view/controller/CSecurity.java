@@ -33,7 +33,7 @@ public class CSecurity implements UserDetailsService {
     public UserDetails loadUserByUsername(String username)
             throws UsernameNotFoundException, DataAccessException {
 
-        User user = security.getUsersList(username);
+        User user = security.users(username);
         List<GrantedAuthority> authorities = new ArrayList<GrantedAuthority>();
         authorities.add(new GrantedAuthorityImpl(user.getGrantedAuthority().getRoleName()));
         return new org.springframework.security.core.userdetails.User(user.getUsername(),

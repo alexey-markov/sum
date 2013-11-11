@@ -11,6 +11,6 @@ import ru.avm.sum.data.model.security.User;
  */
 public interface ISecurity {
 
-    public User getUsersList(String username);
+    public User users(String username);
 
 }

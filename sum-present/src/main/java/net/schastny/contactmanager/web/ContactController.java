@@ -18,9 +18,9 @@ public class ContactController {
     @RequestMapping("/index")
     public String listContacts(Map<String, Object> map) {
 
-        User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        String name = user.getUsername(); //get logged in username
-        map.put("username", name);
+        SecurityProvider.MyUser user = (SecurityProvider.MyUser) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        map.put("username", user.getUsername());
+        map.put("user_uid", user.getId());
 
         return "first";
     }
