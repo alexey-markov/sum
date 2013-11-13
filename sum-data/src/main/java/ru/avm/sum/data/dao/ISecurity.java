@@ -1,6 +1,6 @@
 package ru.avm.sum.data.dao;
 
-import ru.avm.sum.data.model.security.User;
+import ru.avm.sum.data.model.authority.User;
 
 /**
  * Created with IntelliJ IDEA.
@@ -11,6 +11,6 @@ import ru.avm.sum.data.model.security.User;
  */
 public interface ISecurity {
 
-    public User users(String username);
+    public User user(String username);
 
 }

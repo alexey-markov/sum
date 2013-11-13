@@ -14,17 +14,20 @@
         http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
 	<!-- Root Context: определяет ресурсы, доступные всему приложению, всем сервлетам -->
-	
-	<!-- Включаем опцию использования конфигурационных аннотаций (@Annotation-based configuration)-->
+    <!--<bean class="ru.avm.sum.view.Config"/>-->
+
+    <bean id="messageSource"
+          class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+        <property name="basename" value="classpath:messages"/>
+        <property name="defaultEncoding" value="UTF-8"/>
+    </bean>
+
+    <!-- Включаем опцию использования конфигурационных аннотаций (@Annotation-based configuration)-->
 	<context:annotation-config />
 
 	<!-- Определяем папки, в которых будем автоматически искать бины-компоненты (@Component, @Service)  -->
-	<context:component-scan base-package="net.schastny.contactmanager.dao" />
-	<context:component-scan base-package="net.schastny.contactmanager.service" />
+    <context:component-scan base-package="ru.avm.sum.view.service"/>
 
-    <!-- Файл с настройками ресурсов для работы с данными (Data Access Resources) -->
-	<import resource="data.xml" />
-				
 	<!-- Файл с настройками безопасности -->
 	<import resource="security.xml" />
 

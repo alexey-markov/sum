@@ -26,10 +26,8 @@
     </style>
     <script>
         $(document).ready(function () {
-            var user = '${user_uid}';
-            console.log('user = ' + user);
             var balance = new Balance($('#example'));
-            balance.load(balance);
+            balance.load(balance, '${user_uid}');
         });
     </script>
 </head>

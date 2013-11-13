@@ -1,12 +1,12 @@
 package ru.avm.sum.data.dao.stub;
 
 import ru.avm.sum.data.dao.IBalance;
-import ru.avm.sum.data.model.Basket;
-import ru.avm.sum.data.model.Currency;
-import ru.avm.sum.data.model.Deal;
-import ru.avm.sum.data.model.Event;
-import ru.avm.sum.data.model.Category;
-import ru.avm.sum.data.model.Money;
+import ru.avm.sum.data.model.money.Basket;
+import ru.avm.sum.data.model.money.Currency;
+import ru.avm.sum.data.model.money.Deal;
+import ru.avm.sum.data.model.money.Event;
+import ru.avm.sum.data.model.money.Category;
+import ru.avm.sum.data.model.money.Money;
 
 import java.util.ArrayList;
 import java.util.Date;

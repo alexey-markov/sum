@@ -2,8 +2,8 @@ var Currency = function () {
     this.data = new Array();
 };
 
-Currency.prototype.load = function (self) {
-    Balance.request(this, 'http://localhost:8080/sum-service/rest/balance/money', 'POST', '{}', function (self, data) {
+Currency.prototype.load = function (self, user) {
+    Balance.request(this, 'http://localhost:8080/sum-service/rest/balance/money', 'POST', user, function (self, data) {
         for (var i = 0; i < data.length; i++) {
             var currency = data[i];
             self.data[currency['name']] = currency;

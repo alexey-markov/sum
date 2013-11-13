@@ -2,16 +2,19 @@ package ru.avm.sum.business.service;
 
 import org.springframework.stereotype.Service;
 import ru.avm.sum.data.dao.IBalance;
-import ru.avm.sum.data.model.Basket;
-import ru.avm.sum.data.model.Category;
-import ru.avm.sum.data.model.Currency;
-import ru.avm.sum.data.model.Deal;
-import ru.avm.sum.data.model.Money;
+import ru.avm.sum.data.dao.file.Balance;
+import ru.avm.sum.data.model.money.Basket;
+import ru.avm.sum.data.model.money.Category;
+import ru.avm.sum.data.model.money.Currency;
+import ru.avm.sum.data.model.money.Deal;
+import ru.avm.sum.data.model.money.Money;
 
-import javax.annotation.Resource;
+import java.io.File;
 import java.util.Collections;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created with IntelliJ IDEA.
@@ -21,116 +24,118 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 @Service
-public class SAccountant implements IBalance {
+public class SAccountant {
 
-    @Resource(name = "balance")
-    private IBalance balance;
+    private final Map<String, IBalance> balances = new HashMap<>();
 
-    @Override
-    public boolean insert(Basket basket) {
-        return balance.insert(basket);
+    private final String root;
+
+    // ToDo: remove
+    public SAccountant() {
+        this(".");
     }
 
-    @Override
-    public boolean update(Basket basket) {
-        return balance.update(basket);
+    public SAccountant(String root) {
+        this.root = root;
     }
 
-    @Override
-    public boolean remove(Basket basket) {
-        return balance.remove(basket);
+    public boolean insert(String user, Basket basket) {
+        return balance(user).insert(basket);
     }
 
-    @Override
-    public List<Basket> total() {
-        List<Basket> total = balance.total();
+    public boolean update(String user, Basket basket) {
+        return balance(user).update(basket);
+    }
+
+    public boolean remove(String user, Basket basket) {
+        return balance(user).remove(basket);
+    }
+
+    public List<Basket> total(String user) {
+        List<Basket> total = balance(user).total();
         if (!total.isEmpty()) {
             return total;
         }
-        Currency currency = money().get(0);
+        Currency currency = money(user).get(0);
         Basket basket = new Basket("NONAME", new Money(0L, currency), new Money(0L, currency));
-        if (balance.insert(basket)) {
+        if (balance(user).insert(basket)) {
             return Collections.singletonList(basket);
         } else {
             throw new IllegalStateException("Can't save data.");
         }
     }
 
-    @Override
-    public boolean insert(Deal deal) {
-        return balance.insert(deal);
+    public boolean insert(String user, Deal deal) {
+        return balance(user).insert(deal);
     }
 
-    @Override
-    public boolean update(Deal deal) {
-        return balance.insert(deal);
+    public boolean update(String user, Deal deal) {
+        return balance(user).insert(deal);
     }
 
-    @Override
-    public boolean remove(Deal deal) {
-        return balance.insert(deal);
+    public boolean remove(String user, Deal deal) {
+        return balance(user).insert(deal);
     }
 
-    @Override
-    public List<Deal> list(Date from, Date till, Basket basket, Category category) {
-        return balance.list(from, till, basket, category);
+    public List<Deal> list(String user, Date from, Date till, Basket basket, Category category) {
+        return balance(user).list(from, till, basket, category);
     }
 
-    @Override
-    public boolean insert(Category category) {
-        return balance.insert(category);
+    public boolean insert(String user, Category category) {
+        return balance(user).insert(category);
     }
 
-    @Override
-    public boolean update(Category category) {
-        return balance.update(category);
+    public boolean update(String user, Category category) {
+        return balance(user).update(category);
     }
 
-    @Override
-    public boolean remove(Category category) {
-        return balance.remove(category);
+    public boolean remove(String user, Category category) {
+        return balance(user).remove(category);
     }
 
-    @Override
-    public List<Category> graph() {
-        List<Category> graph = balance.graph();
+    public List<Category> graph(String user) {
+        List<Category> graph = balance(user).graph();
         if (!graph.isEmpty()) {
             return graph;
         }
         Category category = new Category("NONAME");
-        if (balance.insert(category)) {
+        if (balance(user).insert(category)) {
             return Collections.singletonList(category);
         } else {
             throw new IllegalStateException("Can't save data.");
         }
     }
 
-    @Override
-    public boolean insert(Currency currency) {
-        return balance.insert(currency);
+    public boolean insert(String user, Currency currency) {
+        return balance(user).insert(currency);
     }
 
-    @Override
-    public boolean update(Currency currency) {
-        return balance.update(currency);
+    public boolean update(String user, Currency currency) {
+        return balance(user).update(currency);
     }
 
-    @Override
-    public boolean remove(Currency currency) {
-        return balance.remove(currency);
+    public boolean remove(String user, Currency currency) {
+        return balance(user).remove(currency);
     }
 
-    @Override
-    public List<Currency> money() {
-        List<Currency> money = balance.money();
+    public List<Currency> money(String user) {
+        List<Currency> money = balance(user).money();
         if (!money.isEmpty()) {
             return money;
         }
         Currency currency = new Currency("EGG", 1D);
-        if (balance.insert(currency)) {
+        if (balance(user).insert(currency)) {
             return Collections.singletonList(currency);
         } else {
             throw new IllegalStateException("Can't save data.");
         }
+    }
+
+    private IBalance balance(String user) {
+        IBalance balance = balances.get(user);
+        if (balance == null) {
+            balances.put(user, balance = new Balance(root + File.separator + user));
+        }
+        return balance;
     }
 }

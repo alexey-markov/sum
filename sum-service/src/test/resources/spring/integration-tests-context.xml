@@ -8,17 +8,9 @@
        http://www.springframework.org/schema/aop
        http://www.springframework.org/schema/aop/spring-aop-2.0.xsd">
 
-    <!--
-        <bean id="httpClient" class="org.apache.http.impl.client.DefaultHttpClient"/>
-
-        <bean p:location="classpath:/mobile-server-test.properties" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"/>
-
-        <bean id="endpointService" class="ru.yota.bank.server.mobileserver.SpocEndpointServiceRemoteImpl"/>
-
-        <bean id="requestExecutor" class="ru.yota.bank.server.mobileserver.it.exec.impl.RequestExecutorImpl"/>
-    -->
-
-    <bean id="accountant" class="ru.avm.sum.business.service.SAccountant"/>
+    <bean id="accountant" class="ru.avm.sum.business.service.SAccountant">
+        <constructor-arg value="."/>
+    </bean>
 
     <bean id="controller" class="ru.avm.sum.business.controller.CAccountant"/>
 </beans>

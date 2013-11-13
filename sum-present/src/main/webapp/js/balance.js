@@ -18,14 +18,14 @@ Balance.request = function (self, url, type, data, callback) {
     });
 };
 
-Balance.prototype.load = function (self) {
+Balance.prototype.load = function (self, user) {
     self.category = new Category();
-    self.category.load(self.category);
+    self.category.load(self.category, user);
 
     self.currency = new Currency();
-    self.currency.load(self.currency);
+    self.currency.load(self.currency, user);
 
-    Balance.request(this, 'http://localhost:8080/sum-service/rest/balance/total', 'POST', '{}', self.show);
+    Balance.request(this, 'http://localhost:8080/sum-service/rest/balance/total', 'POST', user, self.show);
 };
 
 Balance.prototype.show = function (self, data) {

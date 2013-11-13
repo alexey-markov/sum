@@ -2,72 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4239c7aa-08b3-4c04-ae59-9e00b71aa108" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\projects\sum\main\resources\messages_en.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\resources\messages_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\resources\spring\application-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\resources\spring\properties-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\resources\spring\root-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\resources\spring\security-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\WEB-INF\spring\webmvc-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\WEB-INF\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\css\demo_page.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\css\demo_table.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\css\jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\error403.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\images\add.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\images\back_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\images\back_enabled.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\images\forward_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\images\forward_enabled_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\images\remove.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\images\sort_asc.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\images\sort_both.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\images\sort_desc.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\js\balance.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\js\basket.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\js\category.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\js\currency.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\js\lib\jquery-1.9.1.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\js\lib\jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\js\lib\jquery.dataTables.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\js\lib\jquery.jeditable.datepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\js\lib\jquery.jeditable.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\js\lib\jquery.json-2.4.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\login.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\main\webapp\webapp.zip" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\main.zip" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/java/net/schastny/contactmanager/web/ContactController.java" afterPath="$PROJECT_DIR$/sum-present/src/main/java/net/schastny/contactmanager/web/ContactController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/AFileStore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CSecurity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/authority/Role.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/service/SSecurity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/authority/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/ru.avm.sum.data.model.authority.Role" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/ru.avm.sum.data.model.authority.User" />
+      <change type="DELETED" beforePath="D:\projects\sum\data\ru.avm.sum.data.model.Basket" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\data\ru.avm.sum.data.model.Category" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\data\ru.avm.sum.data.model.Currency" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\data\ru.avm.sum.data.model.Deal" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\data\ru.avm.sum.data.model.Event" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\data\ru.avm.sum.data.model.Money" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\sum-data\src\main\java\ru\avm\sum\data\model\security\Role.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\sum-data\src\main\java\ru\avm\sum\data\model\security\User.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\java\net\schastny\contactmanager\dao\ContactDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\java\net\schastny\contactmanager\dao\ContactDAOImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\java\net\schastny\contactmanager\dao\UserDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\java\net\schastny\contactmanager\dao\UserDAOImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\java\net\schastny\contactmanager\domain\Contact.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\java\net\schastny\contactmanager\domain\Roles.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\java\net\schastny\contactmanager\domain\Users.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\java\net\schastny\contactmanager\service\ContactService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\java\net\schastny\contactmanager\service\ContactServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\java\net\schastny\contactmanager\web\SecurityProvider.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\resources\hibernate.cfg.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\resources\log4j.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\webapp\WEB-INF\jdbc.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\webapp\WEB-INF\spring\appServlet\controllers.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\webapp\WEB-INF\spring\data.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\sum-service\src\main\java\ru\avm\sum\business\service\SSecurity.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\sum-service\src\main\resources\hibernate.cfg.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\sum-service\src\main\webapp\WEB-INF\jdbc.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\sum\sum-service\src\main\webapp\WEB-INF\spring\data-context.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Balance.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Balance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/sql/Balance.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/sql/Balance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/stub/Balance.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/stub/Balance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CAccountant.java" afterPath="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CAccountant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/controller/CSecurity.java" afterPath="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/controller/CSecurity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/Config.java" afterPath="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/Config.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/Config.java" afterPath="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/Config.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/IBalance.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/IBalance.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/ISecurity.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/ISecurity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SSecurity.java" afterPath="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SSecurity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SAccountant.java" afterPath="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SAccountant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-service/src/test/java/ru/avm/sum/business/service/common/SAccountantTest.java" afterPath="$PROJECT_DIR$/sum-service/src/test/java/ru/avm/sum/business/service/common/SAccountantTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Security.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Security.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/SelectRequest.java" afterPath="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/SelectRequest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/js/balance.js" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/js/balance.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/js/category.js" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/js/category.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/js/currency.js" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/js/currency.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/views/first.jsp" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/views/first.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-service/src/test/resources/spring/integration-tests-context.xml" afterPath="$PROJECT_DIR$/sum-service/src/test/resources/spring/integration-tests-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/root-context.xml" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/root-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/security.xml" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/security.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-service/src/main/webapp/WEB-INF/spring/servlet-context.xml" afterPath="$PROJECT_DIR$/sum-service/src/main/webapp/WEB-INF/spring/servlet-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-service/sum-service.iml" afterPath="$PROJECT_DIR$/sum-service/sum-service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-service/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/sum-service/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\projects\sum\main\java\ru\avm\sum\view\Config.java" afterPath="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/Config.java" />
-      <change type="MOVED" beforePath="D:\projects\sum\main\java\ru\avm\sum\view\controller\CSecurity.java" afterPath="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/controller/CSecurity.java" />
-      <change type="MOVED" beforePath="D:\projects\sum\main\resources\sum-present-log4j.xml" afterPath="$PROJECT_DIR$/sum-present/src/main/resources/sum-present-log4j.xml" />
+      <change type="MOVED" beforePath="D:\projects\sum\sum-data\src\main\java\ru\avm\sum\data\model\Basket.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Basket.java" />
+      <change type="MOVED" beforePath="D:\projects\sum\sum-data\src\main\java\ru\avm\sum\data\model\Category.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Category.java" />
+      <change type="MOVED" beforePath="D:\projects\sum\sum-data\src\main\java\ru\avm\sum\data\model\Currency.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Currency.java" />
+      <change type="MOVED" beforePath="D:\projects\sum\sum-data\src\main\java\ru\avm\sum\data\model\Deal.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Deal.java" />
+      <change type="MOVED" beforePath="D:\projects\sum\sum-data\src\main\java\ru\avm\sum\data\model\Event.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Event.java" />
+      <change type="MOVED" beforePath="D:\projects\sum\sum-data\src\main\java\ru\avm\sum\data\model\Identity.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Identity.java" />
+      <change type="MOVED" beforePath="D:\projects\sum\sum-data\src\main\java\ru\avm\sum\data\model\Money.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Money.java" />
+      <change type="MOVED" beforePath="D:\projects\sum\sum-present\src\main\java\net\schastny\contactmanager\web\ContactController.java" afterPath="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/controller/WController.java" />
+      <change type="MOVED" beforePath="D:\projects\sum\sum-present\src\main\webapp\WEB-INF\spring\appServlet\servlet-context.xml" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/servlet-context.xml" />
     </list>
     <ignored path="sum.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369667770566" ignored="false" />
+    <file path="/fragment.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384250731233" ignored="false" />
     <file path="$PROJECT_DIR$/sum-service/src/test/java/ru/avm/sum/service/common/SAccountantTest.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366974904852" ignored="false" />
     <file path="/CSeciruty.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366976516243" ignored="false" />
     <file path="$PROJECT_DIR$/../ContactManager/pom.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366976723530" ignored="false" />
-    <file path="/root-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366980513895" ignored="false" />
+    <file path="/root-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384256448283" ignored="false" />
     <file path="/security-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369302817985" ignored="false" />
-    <file path="/CSecurity.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384178222429" ignored="false" />
+    <file path="/CSecurity.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384330277858" ignored="false" />
     <file path="/servlet-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384167972438" ignored="false" />
-    <file path="/SSecurity.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366982122833" ignored="false" />
-    <file path="/SAccountant.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366980929624" ignored="false" />
+    <file path="/SSecurity.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384181181357" ignored="false" />
+    <file path="/SAccountant.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384332756107" ignored="false" />
     <file path="/pom.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366987119081" ignored="false" />
     <file path="/Category.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366981786918" ignored="false" />
     <file path="/ISecurity.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366981959849" ignored="false" />
-    <file path="/Security.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366982217383" ignored="false" />
-    <file path="/web.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384168156605" ignored="false" />
+    <file path="/Security.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384250502709" ignored="false" />
+    <file path="/web.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384257905151" ignored="false" />
     <file path="/a.txt" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366990951343" ignored="false" />
     <file path="/hibernate.cfg.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366986856659" ignored="false" />
-    <file path="/Config.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366987560699" ignored="false" />
-    <file path="/a.dummy" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384166316942" ignored="false" />
+    <file path="/Config.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384254030386" ignored="false" />
+    <file path="/a.dummy" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384331633162" ignored="false" />
     <file path="/webmvc-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366991326948" ignored="false" />
     <file path="/application-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366994415335" ignored="false" />
     <file path="$PROJECT_DIR$/../bank/mobilesrv/.idea/workspace.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369240521421" ignored="false" />
@@ -92,7 +116,7 @@
     <file path="$PROJECT_DIR$/../bank/spoc/spoc-domain/src/main/java/ru/yota/bank/spoc/domain/Conversation.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369664203729" ignored="false" />
     <file path="$PROJECT_DIR$/../bank/spoc/cts/cts-client/src/main/java/ru/yota/bank/cts/dao/impl/converter/kryo/KryoConverter.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369389380293" ignored="false" />
     <file path="$PROJECT_DIR$/../bank/spoc/cts/cts-client/pom.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369389357151" ignored="false" />
-    <file path="/security.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369319916252" ignored="false" />
+    <file path="/security.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384257760164" ignored="false" />
     <file path="/IncomingPaymentDispatcher.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369395168820" ignored="false" />
     <file path="$PROJECT_DIR$/../bank/spoc/spoc-impl/src/main/java/ru/yota/bank/spoc/service/TransactionsStorageService.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369666352193" ignored="false" />
     <file path="/TransactionsStorageService.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369666340484" ignored="false" />
@@ -127,8 +151,16 @@
     <file path="$PROJECT_DIR$/../bank/spoc/spoc-impl/src/main/resources/messages.properties" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369902096942" ignored="false" />
     <file path="/ProcessingRestApiProviderImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369902198132" ignored="false" />
     <file path="$PROJECT_DIR$/../bank/spoc/spoc-impl/src/main/java/ru/yota/bank/spoc/impl/handler/processing/out/PaymentMessageHandlerPhysical.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369902368730" ignored="false" />
-    <file path="/Dummy.txt" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384165292473" ignored="false" />
+    <file path="/Dummy.txt" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384255405736" ignored="false" />
     <file path="/first.jsp" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384169774153" ignored="false" />
+    <file path="/AFileStore.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384333840953" ignored="false" />
+    <file path="/Balance.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384248200180" ignored="false" />
+    <file path="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/security/authority.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384250736074" ignored="false" />
+    <file path="/User.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384252231117" ignored="false" />
+    <file path="/balance.js" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384332122765" ignored="false" />
+    <file path="/currency.js" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384326399473" ignored="false" />
+    <file path="/CAccountant.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384331580465" ignored="false" />
+    <file path="/integration-tests-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384330632360" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,78 +222,80 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CSecurity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/controller/CSecurity.java">
+      <file leaf-file-name="AFileStore.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/AFileStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="30" selection-start="931" selection-end="931" vertical-scroll-proportion="0.38977072">
+            <state line="179" column="0" selection-start="6812" selection-end="6812" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SAccountant.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SAccountant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="58" selection-start="1693" selection-end="1693" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#1286#1304#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/Config.java">
+      <file leaf-file-name="InvocableHandlerMethod.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.1.1.RELEASE/spring-web-3.1.1.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="13" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+            <state line="220" column="0" selection-start="8612" selection-end="8612" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="messages_en.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sum-present/src/main/resources/messages_en.properties">
+      <file leaf-file-name="CSecurity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CSecurity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="55" selection-start="338" selection-end="338" vertical-scroll-proportion="-10.88">
+            <state line="34" column="0" selection-start="1059" selection-end="1108" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Security.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Security.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="ResourceBundle">
+        </entry>
+      </file>
+      <file leaf-file-name="ru.avm.sum.data.model.authority.Role" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/ru.avm.sum.data.model.authority.Role">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ru.avm.sum.data.model.authority.User" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/ru.avm.sum.data.model.authority.User">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
             <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sum-present/src/main/resources/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="1" column="35" selection-start="232" selection-end="232" vertical-scroll-proportion="-0.68">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sum-present/src/main/resources/log4j.xml">
+      <file leaf-file-name="ru.avm.sum.data.model.money.Basket" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/c8e9277d-18c5-41c0-987e-c84850059e5a/ru.avm.sum.data.model.money.Basket">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="servlet-context.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="76" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="c.bat" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/c.bat">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="security.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/security.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="17" selection-start="943" selection-end="943" vertical-scroll-proportion="-7.4">
+            <state line="0" column="39" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -285,31 +319,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/service/Config.java" />
-        <option value="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CAccountant.java" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/controller/CSeciruty.java" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/resources/spring/properties-context.xml" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/resources/spring/data-context.xml" />
-        <option value="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SAccountant.java" />
-        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/security/Кщду.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/security/User.java" />
-        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/security/Role.java" />
-        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/Category.java" />
-        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/Basket.java" />
-        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/ISecurity.java" />
-        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Security.java" />
-        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Balance.java" />
-        <option value="$PROJECT_DIR$/sum-service/src/main/webapp/WEB-INF/jdbc.properties" />
-        <option value="$PROJECT_DIR$/sum-service/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/sum-service/src/main/webapp/WEB-INF/spring/servlet-context.xml" />
-        <option value="$PROJECT_DIR$/sum-service/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/login.js" />
-        <option value="$PROJECT_DIR$/sum-present/pom.xml" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/webmvc-context.xml" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/resources/spring/application-context.xml" />
-        <option value="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/Config.java" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/Config.java" />
         <option value="$PROJECT_DIR$/sum-present/src/main/resources/spring/root-context.xml" />
         <option value="$PROJECT_DIR$/sum-present/src/main/webapp/login.jsp" />
         <option value="$PROJECT_DIR$/sum-present/src/main/resources/spring/security-context.xml" />
@@ -319,14 +328,43 @@
         <option value="$PROJECT_DIR$/sum-present/src/main/java/net/schastny/contactmanager/web/SecurityProvider.java" />
         <option value="$PROJECT_DIR$/sum-service/pom.xml" />
         <option value="$PROJECT_DIR$/sum-data/pom.xml" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/security.xml" />
         <option value="$PROJECT_DIR$/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/sum-present/src/main/java/net/schastny/contactmanager/web/ContactController.java" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/views/first.jsp" />
+        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Deal.java" />
+        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Basket.java" />
+        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/security/Role.java" />
+        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/security/authority.java" />
+        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/security/User.java" />
+        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/authority/User.java" />
+        <option value="$PROJECT_DIR$/sum-service/src/main/webapp/WEB-INF/spring/servlet-context.xml" />
+        <option value="$PROJECT_DIR$/sum-present/src/main/java/net/schastny/contactmanager/web/WController.java" />
+        <option value="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/controller/WController.java" />
+        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" />
+        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/security.xml" />
+        <option value="$PROJECT_DIR$/sum-service/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SSecurity.java" />
+        <option value="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/Config.java" />
+        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/servlet-context.xml" />
+        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/views/first.jsp" />
+        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/IBalance.java" />
+        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/sql/Balance.java" />
+        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Balance.java" />
+        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/stub/Balance.java" />
         <option value="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/controller/CSecurity.java" />
+        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/ISecurity.java" />
+        <option value="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/service/SSecurity.java" />
+        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Security.java" />
+        <option value="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CSecurity.java" />
+        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/root-context.xml" />
+        <option value="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/Config.java" />
+        <option value="$PROJECT_DIR$/sum-service/src/test/resources/spring/integration-tests-context.xml" />
+        <option value="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CAccountant.java" />
+        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/js/balance.js" />
+        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/js/category.js" />
+        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/js/currency.js" />
+        <option value="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SAccountant.java" />
+        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/AFileStore.java" />
       </list>
     </option>
   </component>
@@ -444,7 +482,799 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework:spring-webmvc:3.1.1.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-webmvc-3.1.1.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework:spring-webmvc:3.1.1.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-webmvc-3.1.1.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servlet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework:spring-webmvc:3.1.1.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-webmvc-3.1.1.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servlet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework:spring-webmvc:3.1.1.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-webmvc-3.1.1.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servlet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="method" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework:spring-webmvc:3.1.1.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-webmvc-3.1.1.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servlet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="method" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="annotation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework:spring-web:3.1.1.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-web-3.1.1.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework:spring-web:3.1.1.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-web-3.1.1.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework:spring-web:3.1.1.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-web-3.1.1.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="method" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework:spring-web:3.1.1.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-web-3.1.1.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="method" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="support" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework:spring-web:3.1.1.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-web-3.1.1.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework:spring-core:3.1.1.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-core-3.1.1.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework:spring-core:3.1.1.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-core-3.1.1.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework:spring-core:3.1.1.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-core-3.1.1.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -481,6 +1311,236 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-present" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-present" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-present" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-present" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-present" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-present" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resource Bundle 'messages'" />
+              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-present" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -523,6 +1583,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -582,7 +1646,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sum-present" />
+              <option name="myItemId" value="sum-data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -595,6 +1673,250 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="file" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="c8e9277d-18c5-41c0-987e-c84850059e5a" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -629,6 +1951,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.avm.sum.data.dao.file" />
       <recent name="ru.avm.sum.view" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -639,11 +1962,11 @@
       <recent name="ru.avm.sum.data.dao.file" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\sum\sum-present\src\main\webapp\WEB-INF\spring" />
       <recent name="D:\projects\sum\sum-present\src\main\java" />
       <recent name="D:\projects\sum\sum-present\src\main\webapp" />
       <recent name="D:\projects\sum\sum-present\src\main\webapp\WEB-INF" />
       <recent name="D:\projects\sum\sum-present\src\main\webapp\WEB-INF\views" />
-      <recent name="D:\projects\sum\sum-service\src\main\webapp\WEB-INF\spring" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.avm.sum.business" />
@@ -915,30 +2238,30 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2858017" sideWeight="0.547191" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2858017" sideWeight="0.547191" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38988763" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45280898" sideWeight="0.4975278" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45280898" sideWeight="0.4975278" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32837528" sideWeight="0.49814585" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33370787" sideWeight="0.49877602" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44044945" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33370787" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33370787" sideWeight="0.500612" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951945" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28800988" sideWeight="0.45080093" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2858017" sideWeight="0.547191" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2001224" sideWeight="0.66629213" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32837528" sideWeight="0.4975278" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29314566" sideWeight="0.66629213" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29620564" sideWeight="0.547191" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1744186" sideWeight="0.547191" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46516854" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1744186" sideWeight="0.60786515" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1013,19 +2336,68 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_5.xsd">
+    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/authority/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1199" column="6" selection-start="36755" selection-end="36755" vertical-scroll-proportion="0.3326087" />
+        <state line="7" column="56" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.1.1.RELEASE/spring-context-3.1.1.RELEASE.jar!/org/springframework/stereotype/Controller.class">
+    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/authority/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="401" selection-end="401" vertical-scroll-proportion="0.35172415" />
+        <state line="25" column="65" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/Config.java">
+    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Identity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="13" selection-start="781" selection-end="781" vertical-scroll-proportion="0.0">
+        <state line="17" column="38" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.1.1.RELEASE/spring-security-core-3.1.1.RELEASE-sources.jar!/org/springframework/security/core/authority/GrantedAuthorityImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="11" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.54451346">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-service/src/main/resources/sum-application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-service/sum-service.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-service/src/main/webapp/WEB-INF/spring/servlet-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="766" selection-end="1006" vertical-scroll-proportion="-9.48">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/resources/messages_en.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="20" selection-start="191" selection-end="191" vertical-scroll-proportion="-5.44">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="26" selection-start="967" selection-end="967" vertical-scroll-proportion="-10.88">
           <folding />
         </state>
       </provider>
@@ -1035,7 +2407,9 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="70" selection-start="2070" selection-end="2070" vertical-scroll-proportion="-9.92" />
+        <state line="31" column="0" selection-start="1180" selection-end="1180" vertical-scroll-proportion="-6.8">
+          <folding />
+        </state>
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
@@ -1044,98 +2418,101 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum-service/src/main/webapp/WEB-INF/spring/servlet-context.xml">
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/resources/sum-present-log4j.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="30" selection-start="1677" selection-end="1677" vertical-scroll-proportion="0.0">
+        <state line="32" column="63" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum-service/src/main/webapp/WEB-INF/jdbc.properties">
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" />
+        <state line="41" column="42" selection-start="1395" selection-end="1395" vertical-scroll-proportion="-14.153846">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum-service/src/main/webapp/WEB-INF/spring/data-context.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/3.1.1.RELEASE/spring-security-web-3.1.1.RELEASE.jar!/org/springframework/security/web/context/SecurityContextPersistenceFilter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="946" selection-end="946" vertical-scroll-proportion="0.0">
+        <state line="15" column="16" selection-start="722" selection-end="722" vertical-scroll-proportion="-5.88">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/SelectRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
+        <state line="13" column="13" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.1.1.RELEASE/spring-security-core-3.1.1.RELEASE.jar!/org/springframework/security/core/userdetails/User.class">
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/controller/WController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="11" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.1.1.RELEASE/spring-security-core-3.1.1.RELEASE-sources.jar!/org/springframework/security/core/userdetails/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="11" selection-start="4280" selection-end="4280" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.1.1.RELEASE/spring-aop-3.1.1.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="35" selection-start="2311" selection-end="2311" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CAccountant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="48" selection-start="79" selection-end="89" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/Currency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/Basket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="49" selection-start="69" selection-end="81" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="2067" selection-end="2067" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
+        <state line="9" column="24" selection-start="271" selection-end="282" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum-data/pom.xml">
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/views/first.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="891" selection-end="891" vertical-scroll-proportion="0.0">
+        <state line="29" column="21" selection-start="1055" selection-end="1055" vertical-scroll-proportion="-8.576923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/appServlet/controllers.xml">
+    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/sql/Balance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="5" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0">
+        <state line="96" column="32" selection-start="3048" selection-end="3048" vertical-scroll-proportion="-20.32">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/stub/Balance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="32" selection-start="3778" selection-end="3778" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="24" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/ISecurity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="20" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/controller/CSecurity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="16" selection-start="1073" selection-end="1082" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/service/SSecurity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/servlet-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1145,7 +2522,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="2299" selection-end="2299" vertical-scroll-proportion="-29.48">
+        <state line="42" column="44" selection-start="1705" selection-end="1705" vertical-scroll-proportion="9.52">
           <folding />
         </state>
       </provider>
@@ -1156,169 +2533,168 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/jdbc.properties">
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/root-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="61" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
+        <state line="24" column="64" selection-start="1785" selection-end="1785" vertical-scroll-proportion="-16.32">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/java/net/schastny/contactmanager/dao/UserDAO.java">
+    <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
+        <state line="29" column="9" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-service/src/test/java/ru/avm/sum/business/service/common/SAccountantTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/java/net/schastny/contactmanager/service/ContactService.java">
+    <entry file="file://$PROJECT_DIR$/sum-service/src/test/resources/spring/integration-tests-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+        <state line="10" column="4" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/java/net/schastny/contactmanager/service/ContactServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/IBalance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/java/net/schastny/contactmanager/domain/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/java/net/schastny/contactmanager/domain/Roles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/java/net/schastny/contactmanager/domain/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/views/first.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="33" selection-start="1094" selection-end="1094" vertical-scroll-proportion="-5.8846154">
+        <state line="19" column="12" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/js/balance.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
+        <state line="27" column="90" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/login.jsp">
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/js/category.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="42" selection-start="1395" selection-end="1395" vertical-scroll-proportion="-12.0">
+        <state line="5" column="94" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/js/currency.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.1.1.RELEASE/spring-core-3.1.1.RELEASE-sources.jar!/org/springframework/util/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="175" column="0" selection-start="6601" selection-end="6601" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.1.1.RELEASE/spring-webmvc-3.1.1.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="22" selection-start="846" selection-end="846" vertical-scroll-proportion="-6.88">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.1.1.RELEASE/spring-webmvc-3.1.1.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="57" selection-start="7351" selection-end="7351" vertical-scroll-proportion="-6.88">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/env/Java/jdk1.7.0_11/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1027" column="74" selection-start="42484" selection-end="42484" vertical-scroll-proportion="-7.56">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Balance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="0" selection-start="3675" selection-end="3675" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CAccountant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="0" selection-start="3587" selection-end="3587" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/ru.avm.sum.data.model.authority.Role">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Security.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CSecurity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="1059" selection-end="1108" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.1.1.RELEASE/spring-web-3.1.1.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="220" column="0" selection-start="8612" selection-end="8612" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/AFileStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="179" column="0" selection-start="6812" selection-end="6812" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SAccountant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="61" column="58" selection-start="1693" selection-end="1693" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SSecurity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="21" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/ISecurity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="16" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/java/net/schastny/contactmanager/web/ContactController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/java/net/schastny/contactmanager/web/SecurityProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/resources/messages_en.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="55" selection-start="338" selection-end="338" vertical-scroll-proportion="-10.88">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
+    <entry file="file://$PROJECT_DIR$/data/ru.avm.sum.data.model.authority.User">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="1" column="35" selection-start="232" selection-end="232" vertical-scroll-proportion="-0.68">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/resources/log4j.xml">
+    <entry file="file://$PROJECT_DIR$/data/c8e9277d-18c5-41c0-987e-c84850059e5a/ru.avm.sum.data.model.money.Basket">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="39" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="17" selection-start="943" selection-end="943" vertical-scroll-proportion="-7.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="76" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/controller/CSecurity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="30" selection-start="931" selection-end="931" vertical-scroll-proportion="0.38977072">
-          <folding>
-            <element signature="e#1286#1304#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

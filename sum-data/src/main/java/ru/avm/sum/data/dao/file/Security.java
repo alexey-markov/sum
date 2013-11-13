@@ -1,7 +1,7 @@
 package ru.avm.sum.data.dao.file;
 
 import ru.avm.sum.data.dao.ISecurity;
-import ru.avm.sum.data.model.security.User;
+import ru.avm.sum.data.model.authority.User;
 
 /**
  * Created with IntelliJ IDEA.
@@ -10,14 +10,19 @@ import ru.avm.sum.data.model.security.User;
  * Time: 5:16 PM
  * To change this template use File | Settings | File Templates.
  */
-public class Security implements ISecurity {
+public class Security extends AFileStore implements ISecurity {
 
     public Security(String root) {
-        //To change body of created methods use File | Settings | File Templates.
+        super(root);
     }
 
     @Override
-    public User users(String username) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+    public User user(String username) {
+        for (User user : load(User.class)) {
+            if (username.equals(user.getUsername())) {
+                return user;
+            }
+        }
+        return null;
     }
 }

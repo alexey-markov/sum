@@ -1,15 +1,16 @@
 package ru.avm.sum.business.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.util.Assert;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
-import ru.avm.sum.data.model.Basket;
-import ru.avm.sum.data.model.Category;
-import ru.avm.sum.data.model.Currency;
-import ru.avm.sum.data.model.Deal;
 import ru.avm.sum.business.service.SAccountant;
+import ru.avm.sum.data.model.money.Basket;
+import ru.avm.sum.data.model.money.Category;
+import ru.avm.sum.data.model.money.Currency;
+import ru.avm.sum.data.model.money.Deal;
 
 import javax.annotation.Resource;
 import java.util.Date;
@@ -47,27 +48,32 @@ public class CAccountant {
 
     @RequestMapping(value = CAccountant.TOTAL_URI, method = RequestMethod.POST)
     @ResponseBody
-    public List<Basket> total() {
-        return accountant.total();
+    public List<Basket> total(@RequestBody String user) {
+        Assert.hasText(user);
+        return accountant.total(user);
     }
 
     @RequestMapping(value = CAccountant.BASKET_URI, method = RequestMethod.POST)
     @ResponseBody
     public Basket update(@RequestBody Basket basket) {
-        accountant.update(basket);
+        //Assert.hasText(user);
+        accountant.update("TODO", basket);
         return basket;
     }
 
     @RequestMapping(value = CAccountant.BASKET_URI, method = RequestMethod.DELETE)
     @ResponseBody
     public void remove(@RequestBody Basket basket) {
-        accountant.remove(basket);
+        //Assert.hasText(user);
+        accountant.remove("TODO", basket);
     }
 
     @RequestMapping(value = CAccountant.BALANCE_URI, method = RequestMethod.POST)
     @ResponseBody
     public List<Deal> list(@RequestBody SelectRequest request) {
-        return accountant.list(new Date(Math.max(request.getFrom() * MILLIS_IN_DAY - 1, 0L)),
+        //Assert.hasText(user);
+        return accountant.list("TODO",
+                               new Date(Math.max(request.getFrom() * MILLIS_IN_DAY - 1, 0L)),
                                new Date(request.getTill() * MILLIS_IN_DAY + 1),
                                request.getBasket(),
                                request.getCategory());
@@ -76,27 +82,30 @@ public class CAccountant {
     @RequestMapping(value = CAccountant.DEAL_URI, method = RequestMethod.POST)
     @ResponseBody
     public Deal update(@RequestBody Deal deal) {
-        accountant.update(deal);
+        //Assert.hasText(user);
+        accountant.update("TODO", deal);
         return deal;
     }
 
     @RequestMapping(value = CAccountant.DEAL_URI, method = RequestMethod.DELETE)
     @ResponseBody
     public void remove(@RequestBody Deal deal) {
-        accountant.remove(deal);
+        //Assert.hasText(user);
+        accountant.remove("TODO", deal);
     }
 
     @RequestMapping(value = CAccountant.GRAPH_URI, method = RequestMethod.POST)
     @ResponseBody
-    public List<Category> graph() {
-        return accountant.graph();
+    public List<Category> graph(@RequestBody String user) {
+        Assert.hasText(user);
+        return accountant.graph(user);
     }
-
 
     @RequestMapping(value = CAccountant.MONEY_URI, method = RequestMethod.POST)
     @ResponseBody
-    public List<Currency> money() {
-        return accountant.money();
+    public List<Currency> money(@RequestBody String user) {
+        Assert.hasText(user);
+        return accountant.money(user);
     }
 
 }

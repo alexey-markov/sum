@@ -5,10 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
 import ru.avm.sum.business.service.SAccountant;
-import ru.avm.sum.business.service.SSecurity;
-import ru.avm.sum.data.dao.IBalance;
 import ru.avm.sum.data.dao.ISecurity;
-import ru.avm.sum.data.dao.file.Balance;
 import ru.avm.sum.data.dao.file.Security;
 
 import javax.annotation.Resource;
@@ -32,22 +29,14 @@ public class Config {
      */
     @Bean
     public SAccountant accountant() {
-        return new SAccountant();
+        return new SAccountant(env.getProperty("sum.data.file.path.root"));
     }
 
     /**
      * @return Bean instance
      */
     @Bean
-    public IBalance balance() {
-        return new Balance(env.getProperty("sum.data.file.path.root"));
-    }
-
-    /**
-     * @return Bean instance
-     */
-    @Bean
-    public ISecurity security() {
+    public ISecurity authority() {
         return new Security(env.getProperty("sum.data.file.path.root"));
     }
 

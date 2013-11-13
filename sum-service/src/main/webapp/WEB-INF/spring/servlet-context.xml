@@ -25,7 +25,4 @@
         </mvc:message-converters>
     </mvc:annotation-driven>
 
-    <!-- Файл с настройками ресурсов для работы с данными (Data Access Resources) -->
-    <import resource="data-context.xml"/>
-
 </beans>

@@ -1,4 +1,4 @@
-package ru.avm.sum.data.model;
+package ru.avm.sum.data.model.money;
 
 import org.codehaus.jackson.annotate.JsonProperty;
 

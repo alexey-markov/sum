@@ -2,8 +2,8 @@ package ru.avm.sum.business.service.common;
 
 import junit.framework.Assert;
 import org.junit.Test;
-import ru.avm.sum.data.model.Deal;
-import ru.avm.sum.data.model.Category;
+import ru.avm.sum.data.model.money.Deal;
+import ru.avm.sum.data.model.money.Category;
 import ru.avm.sum.business.controller.SelectRequest;
 import ru.avm.sum.business.controller.CAccountant;
 

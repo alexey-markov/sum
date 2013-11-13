@@ -1,8 +1,8 @@
 package ru.avm.sum.business.controller;
 
 import org.codehaus.jackson.annotate.JsonProperty;
-import ru.avm.sum.data.model.Basket;
-import ru.avm.sum.data.model.Category;
+import ru.avm.sum.data.model.money.Basket;
+import ru.avm.sum.data.model.money.Category;
 
 /**
  * Created with IntelliJ IDEA.
