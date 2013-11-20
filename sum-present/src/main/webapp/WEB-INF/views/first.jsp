@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8"/>
     <title>jQuery UI Draggable - Default functionality</title>
-    <link rel="stylesheet" href="css/jquery-ui.css"/>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"/>
     <link rel="stylesheet" href="css/demo_page.css"/>
     <link rel="stylesheet" href="css/demo_table.css"/>
     <script src="js/lib/jquery-1.9.1.js"></script>
@@ -17,13 +17,6 @@
     <script src="js/basket.js"></script>
     <script src="js/currency.js"></script>
     <script src="js/category.js"></script>
-    <style>
-        #table {
-            width: 150px;
-            height: 150px;
-            padding: 0.5em;
-        }
-    </style>
     <script>
         $(document).ready(function () {
             var balance = new Balance($('#example'));

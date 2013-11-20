@@ -2,6 +2,7 @@ package ru.avm.sum.business.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.util.Assert;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -18,7 +19,7 @@ import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
- * User: almarkov
+ * uid: almarkov
  * Date: 20.02.13
  * Time: 14:13
  * To change this template use File | Settings | File Templates.
@@ -29,17 +30,17 @@ public class CAccountant {
 
     public static final String BASE_URI = "/balance";
 
-    public static final String TOTAL_URI = "/total";
+    public static final String TOTAL_URI = "/{uid}/total";
 
-    public static final String BASKET_URI = "/basket";
+    public static final String BASKET_URI = "/{uid}/basket";
 
-    public static final String BALANCE_URI = "/list";
+    public static final String BALANCE_URI = "/{uid}/list";
 
-    public static final String DEAL_URI = "/deal";
+    public static final String DEAL_URI = "/{uid}/deal";
 
-    public static final String GRAPH_URI = "/graph";
+    public static final String GRAPH_URI = "/{uid}/graph";
 
-    public static final String MONEY_URI = "/money";
+    public static final String MONEY_URI = "/{uid}/money";
 
     private static long MILLIS_IN_DAY = 24 * 60 * 60 * 1000L;
 
@@ -48,31 +49,31 @@ public class CAccountant {
 
     @RequestMapping(value = CAccountant.TOTAL_URI, method = RequestMethod.POST)
     @ResponseBody
-    public List<Basket> total(@RequestBody String user) {
-        Assert.hasText(user);
-        return accountant.total(user);
+    public List<Basket> total(@PathVariable String uid) {
+        Assert.hasText(uid);
+        return accountant.total(uid);
     }
 
     @RequestMapping(value = CAccountant.BASKET_URI, method = RequestMethod.POST)
     @ResponseBody
-    public Basket update(@RequestBody Basket basket) {
-        //Assert.hasText(user);
-        accountant.update("TODO", basket);
+    public Basket update(@PathVariable String uid, @RequestBody Basket basket) {
+        Assert.hasText(uid);
+        accountant.update(uid, basket);
         return basket;
     }
 
     @RequestMapping(value = CAccountant.BASKET_URI, method = RequestMethod.DELETE)
     @ResponseBody
-    public void remove(@RequestBody Basket basket) {
-        //Assert.hasText(user);
-        accountant.remove("TODO", basket);
+    public void remove(@PathVariable String uid, @RequestBody Basket basket) {
+        Assert.hasText(uid);
+        accountant.remove(uid, basket);
     }
 
     @RequestMapping(value = CAccountant.BALANCE_URI, method = RequestMethod.POST)
     @ResponseBody
-    public List<Deal> list(@RequestBody SelectRequest request) {
-        //Assert.hasText(user);
-        return accountant.list("TODO",
+    public List<Deal> list(@PathVariable String uid, @RequestBody SelectRequest request) {
+        Assert.hasText(uid);
+        return accountant.list(uid,
                                new Date(Math.max(request.getFrom() * MILLIS_IN_DAY - 1, 0L)),
                                new Date(request.getTill() * MILLIS_IN_DAY + 1),
                                request.getBasket(),
@@ -81,31 +82,31 @@ public class CAccountant {
 
     @RequestMapping(value = CAccountant.DEAL_URI, method = RequestMethod.POST)
     @ResponseBody
-    public Deal update(@RequestBody Deal deal) {
-        //Assert.hasText(user);
-        accountant.update("TODO", deal);
+    public Deal update(@PathVariable String uid, @RequestBody Deal deal) {
+        Assert.hasText(uid);
+        accountant.update(uid, deal);
         return deal;
     }
 
     @RequestMapping(value = CAccountant.DEAL_URI, method = RequestMethod.DELETE)
     @ResponseBody
-    public void remove(@RequestBody Deal deal) {
-        //Assert.hasText(user);
-        accountant.remove("TODO", deal);
+    public void remove(@PathVariable String uid, @RequestBody Deal deal) {
+        Assert.hasText(uid);
+        accountant.remove(uid, deal);
     }
 
     @RequestMapping(value = CAccountant.GRAPH_URI, method = RequestMethod.POST)
     @ResponseBody
-    public List<Category> graph(@RequestBody String user) {
-        Assert.hasText(user);
-        return accountant.graph(user);
+    public List<Category> graph(@PathVariable String uid) {
+        Assert.hasText(uid);
+        return accountant.graph(uid);
     }
 
     @RequestMapping(value = CAccountant.MONEY_URI, method = RequestMethod.POST)
     @ResponseBody
-    public List<Currency> money(@RequestBody String user) {
-        Assert.hasText(user);
-        return accountant.money(user);
+    public List<Currency> money(@PathVariable String uid) {
+        Assert.hasText(uid);
+        return accountant.money(uid);
     }
 
 }

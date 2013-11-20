@@ -3,7 +3,7 @@ var Currency = function () {
 };
 
 Currency.prototype.load = function (self, user) {
-    Balance.request(this, 'http://localhost:8080/sum-service/rest/balance/money', 'POST', user, function (self, data) {
+    Balance.request(this, user, 'http://localhost:8080/sum-service/rest/balance/' + user + '/money', 'POST', '{}', function (self, user, data) {
         for (var i = 0; i < data.length; i++) {
             var currency = data[i];
             self.data[currency['name']] = currency;

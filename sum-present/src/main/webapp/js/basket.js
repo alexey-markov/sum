@@ -3,12 +3,12 @@ var Basket = function (balance, data) {
     this.data = data;
 };
 
-Basket.prototype.open = function (self) {
+Basket.prototype.open = function (self, user) {
     var parent = self.balance.table;
     var signal = self.data.name;
     parent.find('tr#basket_title').append('<th colspan="2">' + signal + '</th>').children('th').editable(function (value, settings) {
         self.data.name = value;
-        Balance.request(self, 'http://localhost:8080/sum-service/rest/balance/basket', 'POST', self.data);
+        Balance.request(self, user, 'http://localhost:8080/sum-service/rest/balance/' + user + '/basket', 'POST', self.data);
         return value;
     }, {
         width: "100%"
@@ -17,10 +17,10 @@ Basket.prototype.open = function (self) {
     place.append('<td><input id="insert_' + signal + '" type="image" src="images/add.png"/>'
         + '<input id="remove_' + signal + '" type="image" src="images/remove.png"/></td>');
     $('tr#basket_table input#insert_' + signal).on('click', function () {
-        Basket.prototype.insert(self);
+        Basket.prototype.insert(self, user);
     });
     $('tr#basket_table input#remove_' + signal).attr('disabled', 'disabled').css('opacity', 0.5).on('click', function () {
-        Basket.prototype.remove(self);
+        Basket.prototype.remove(self, user);
     });
 
     place.append('<td><table id="basket_' + signal + '"><thead><tr><th></th><th></th><th></th><th></th><th></th></tr></thead>'
@@ -47,19 +47,19 @@ Basket.prototype.open = function (self) {
             }}
         ]
     });
-    Basket.prototype.load(self);
+    Basket.prototype.load(self, user);
 };
 
-Basket.prototype.load = function (self) {
+Basket.prototype.load = function (self, user) {
     var data = {
         from: 0,
         till: new Date().getTime() / (24 * 60 * 60 * 1000) + 1,
         basket: self.data
     };
-    Balance.request(self, 'http://localhost:8080/sum-service/rest/balance/list', 'POST', data, self.show);
+    Balance.request(self, user, 'http://localhost:8080/sum-service/rest/balance/' + user + '/list', 'POST', data, self.show);
 };
 
-Basket.prototype.show = function (self, data) {
+Basket.prototype.show = function (self, user, data) {
     var oSettings = self.table.fnSettings();
 
     self.table.fnClearTable(this);
@@ -76,35 +76,35 @@ Basket.prototype.show = function (self, data) {
         Basket.prototype.select(self, this);
     });
 
-    Basket.prototype.editable(self, 'date', {type: 'datepicker', datepicker: {firstDay: 1, dateFormat: 'yy-mm-dd', changeMonth: false, changeYear: true}}, function (prev, next) {
+    Basket.prototype.editable(self, user, 'date', {type: 'datepicker', datepicker: {firstDay: 1, dateFormat: 'yy-mm-dd', changeMonth: false, changeYear: true}}, function (prev, next) {
         prev.date = $.datepicker.parseDate('yy-mm-dd', next).getTime();
     });
     var category = self.balance.category;
     var catnames = category.names(category);
-    Basket.prototype.editable(self, 'category', {type: 'select', data: catnames}, function (prev, next) {
+    Basket.prototype.editable(self, user, 'category', {type: 'select', data: catnames}, function (prev, next) {
         prev.category = category.entry(category, catnames[next]);
     });
-    Basket.prototype.editable(self, 'money', {type: 'text'}, function (prev, next) {
+    Basket.prototype.editable(self, user, 'money', {type: 'text'}, function (prev, next) {
         prev.value = parseInt(next.replace(/[^0-9]/g, ''));
     });
     var currency = self.balance.currency;
     var curnames = currency.names(currency);
-    Basket.prototype.editable(self, 'currency', {type: 'select', data: curnames}, function (prev, next) {
+    Basket.prototype.editable(self, user, 'currency', {type: 'select', data: curnames}, function (prev, next) {
         prev.currency = currency.entry(currency, curnames[next]);
     });
-    Basket.prototype.editable(self, 'comment', {type: 'text'}, function (prev, next) {
+    Basket.prototype.editable(self, user, 'comment', {type: 'text'}, function (prev, next) {
         prev.comment = next;
     });
 };
 
-Basket.prototype.editable = function (self, column, options, update) {
+Basket.prototype.editable = function (self, user, column, options, update) {
     self.table.$('td.' + column).editable(function (value, settings) {
         var data = self.table.fnGetData(this);
         update(data, value);
         var aPos = self.table.fnGetPosition(this);
         self.table.fnUpdate(data, aPos[0], aPos[1]);
         var deal = self.table.fnGetData(aPos[0]);
-        Balance.request(self, 'http://localhost:8080/sum-service/rest/balance/deal', 'POST', deal);
+        Balance.request(self, user, 'http://localhost:8080/sum-service/rest/balance/' + user + '/deal', 'POST', deal);
     }, $.extend(options, {
         event: "dblclick",
         width: "100%"
@@ -133,7 +133,7 @@ Basket.prototype.selected = function (self) {
     return aReturn;
 }
 
-Basket.prototype.insert = function (self) {
+Basket.prototype.insert = function (self, user) {
     var category = self.balance.category;
     var catnames = category.names(category);
     var currency = self.balance.currency;
@@ -143,10 +143,10 @@ Basket.prototype.insert = function (self) {
         basket: self.data,
         money: {value: 0, currency: currency.entry(currency, curnames[0])}
     };
-    deal = Balance.request(self, 'http://localhost:8080/sum-service/rest/balance/deal', 'POST', deal, self.load);
+    deal = Balance.request(self, user, 'http://localhost:8080/sum-service/rest/balance/' + user + '/deal', 'POST', deal, self.load);
 }
 
-Basket.prototype.remove = function (self) {
+Basket.prototype.remove = function (self, user) {
     var select = Basket.prototype.selected(self);
     for (var i = 0; i < select.length; i++) {
         console.log(select[i]);

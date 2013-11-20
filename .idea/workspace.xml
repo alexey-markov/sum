@@ -2,78 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4239c7aa-08b3-4c04-ae59-9e00b71aa108" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/AFileStore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CSecurity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/authority/Role.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/service/SSecurity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/authority/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/ru.avm.sum.data.model.authority.Role" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/ru.avm.sum.data.model.authority.User" />
-      <change type="DELETED" beforePath="D:\projects\sum\data\ru.avm.sum.data.model.Basket" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\data\ru.avm.sum.data.model.Category" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\data\ru.avm.sum.data.model.Currency" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\data\ru.avm.sum.data.model.Deal" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\data\ru.avm.sum.data.model.Event" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\data\ru.avm.sum.data.model.Money" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\sum-data\src\main\java\ru\avm\sum\data\model\security\Role.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\sum-data\src\main\java\ru\avm\sum\data\model\security\User.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\java\net\schastny\contactmanager\dao\ContactDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\java\net\schastny\contactmanager\dao\ContactDAOImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\java\net\schastny\contactmanager\dao\UserDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\java\net\schastny\contactmanager\dao\UserDAOImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\java\net\schastny\contactmanager\domain\Contact.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\java\net\schastny\contactmanager\domain\Roles.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\java\net\schastny\contactmanager\domain\Users.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\java\net\schastny\contactmanager\service\ContactService.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\java\net\schastny\contactmanager\service\ContactServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\java\net\schastny\contactmanager\web\SecurityProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\resources\hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\resources\log4j.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\webapp\WEB-INF\jdbc.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\webapp\WEB-INF\spring\appServlet\controllers.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\webapp\WEB-INF\spring\data.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\sum-service\src\main\java\ru\avm\sum\business\service\SSecurity.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\sum-service\src\main\resources\hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\sum-service\src\main\webapp\WEB-INF\jdbc.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\sum\sum-service\src\main\webapp\WEB-INF\spring\data-context.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Balance.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Balance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/sql/Balance.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/sql/Balance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/stub/Balance.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/stub/Balance.java" />
+      <change type="DELETED" beforePath="D:\projects\sum\sum-present\src\main\webapp\css\jquery-ui.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CAccountant.java" afterPath="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CAccountant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/controller/CSecurity.java" afterPath="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/controller/CSecurity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/Config.java" afterPath="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/Config.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/Config.java" afterPath="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/Config.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/IBalance.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/IBalance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/ISecurity.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/ISecurity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SAccountant.java" afterPath="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SAccountant.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-service/src/test/java/ru/avm/sum/business/service/common/SAccountantTest.java" afterPath="$PROJECT_DIR$/sum-service/src/test/java/ru/avm/sum/business/service/common/SAccountantTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Security.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Security.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/SelectRequest.java" afterPath="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/SelectRequest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/js/balance.js" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/js/balance.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/js/basket.js" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/js/basket.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/js/category.js" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/js/category.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/js/currency.js" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/js/currency.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/css/demo_table.css" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/css/demo_table.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/views/first.jsp" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/views/first.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-service/src/test/resources/spring/integration-tests-context.xml" afterPath="$PROJECT_DIR$/sum-service/src/test/resources/spring/integration-tests-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/root-context.xml" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/root-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/security.xml" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/security.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-service/src/main/webapp/WEB-INF/spring/servlet-context.xml" afterPath="$PROJECT_DIR$/sum-service/src/main/webapp/WEB-INF/spring/servlet-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-service/sum-service.iml" afterPath="$PROJECT_DIR$/sum-service/sum-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-service/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/sum-service/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/login.jsp" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/login.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\projects\sum\sum-data\src\main\java\ru\avm\sum\data\model\Basket.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Basket.java" />
-      <change type="MOVED" beforePath="D:\projects\sum\sum-data\src\main\java\ru\avm\sum\data\model\Category.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Category.java" />
-      <change type="MOVED" beforePath="D:\projects\sum\sum-data\src\main\java\ru\avm\sum\data\model\Currency.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Currency.java" />
-      <change type="MOVED" beforePath="D:\projects\sum\sum-data\src\main\java\ru\avm\sum\data\model\Deal.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Deal.java" />
-      <change type="MOVED" beforePath="D:\projects\sum\sum-data\src\main\java\ru\avm\sum\data\model\Event.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Event.java" />
-      <change type="MOVED" beforePath="D:\projects\sum\sum-data\src\main\java\ru\avm\sum\data\model\Identity.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Identity.java" />
-      <change type="MOVED" beforePath="D:\projects\sum\sum-data\src\main\java\ru\avm\sum\data\model\Money.java" afterPath="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Money.java" />
-      <change type="MOVED" beforePath="D:\projects\sum\sum-present\src\main\java\net\schastny\contactmanager\web\ContactController.java" afterPath="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/controller/WController.java" />
-      <change type="MOVED" beforePath="D:\projects\sum\sum-present\src\main\webapp\WEB-INF\spring\appServlet\servlet-context.xml" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/servlet-context.xml" />
     </list>
     <ignored path="sum.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384250731233" ignored="false" />
+    <file path="/fragment.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384937930455" ignored="false" />
     <file path="$PROJECT_DIR$/sum-service/src/test/java/ru/avm/sum/service/common/SAccountantTest.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366974904852" ignored="false" />
     <file path="/CSeciruty.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366976516243" ignored="false" />
     <file path="$PROJECT_DIR$/../ContactManager/pom.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366976723530" ignored="false" />
@@ -81,8 +26,8 @@
     <file path="/security-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369302817985" ignored="false" />
     <file path="/CSecurity.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384330277858" ignored="false" />
     <file path="/servlet-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384167972438" ignored="false" />
-    <file path="/SSecurity.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384181181357" ignored="false" />
-    <file path="/SAccountant.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384332756107" ignored="false" />
+    <file path="/SSecurity.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384934104999" ignored="false" />
+    <file path="/SAccountant.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384938563217" ignored="false" />
     <file path="/pom.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366987119081" ignored="false" />
     <file path="/Category.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366981786918" ignored="false" />
     <file path="/ISecurity.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366981959849" ignored="false" />
@@ -91,7 +36,7 @@
     <file path="/a.txt" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366990951343" ignored="false" />
     <file path="/hibernate.cfg.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366986856659" ignored="false" />
     <file path="/Config.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384254030386" ignored="false" />
-    <file path="/a.dummy" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384331633162" ignored="false" />
+    <file path="/a.dummy" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384934001793" ignored="false" />
     <file path="/webmvc-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366991326948" ignored="false" />
     <file path="/application-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366994415335" ignored="false" />
     <file path="$PROJECT_DIR$/../bank/mobilesrv/.idea/workspace.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369240521421" ignored="false" />
@@ -151,16 +96,20 @@
     <file path="$PROJECT_DIR$/../bank/spoc/spoc-impl/src/main/resources/messages.properties" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369902096942" ignored="false" />
     <file path="/ProcessingRestApiProviderImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369902198132" ignored="false" />
     <file path="$PROJECT_DIR$/../bank/spoc/spoc-impl/src/main/java/ru/yota/bank/spoc/impl/handler/processing/out/PaymentMessageHandlerPhysical.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369902368730" ignored="false" />
-    <file path="/Dummy.txt" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384255405736" ignored="false" />
-    <file path="/first.jsp" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384169774153" ignored="false" />
+    <file path="/Dummy.txt" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384933597652" ignored="false" />
+    <file path="/first.jsp" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384786122081" ignored="false" />
     <file path="/AFileStore.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384333840953" ignored="false" />
     <file path="/Balance.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384248200180" ignored="false" />
     <file path="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/security/authority.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384250736074" ignored="false" />
     <file path="/User.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384252231117" ignored="false" />
-    <file path="/balance.js" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384332122765" ignored="false" />
+    <file path="/balance.js" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384934299508" ignored="false" />
     <file path="/currency.js" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384326399473" ignored="false" />
     <file path="/CAccountant.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384331580465" ignored="false" />
-    <file path="/integration-tests-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384330632360" ignored="false" />
+    <file path="/integration-tests-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384938434093" ignored="false" />
+    <file path="/demo_table.css" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384932841603" ignored="false" />
+    <file path="/basket.js" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384936151037" ignored="false" />
+    <file path="/category.js" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384935600484" ignored="false" />
+    <file path="/SAccountantTest.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384937925230" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,10 +171,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AFileStore.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/AFileStore.java">
+      <file leaf-file-name="CAccountant.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CAccountant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="179" column="0" selection-start="6812" selection-end="6812" vertical-scroll-proportion="0.0">
+            <state line="28" column="13" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Balance.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Balance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="52" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SAccountantTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sum-service/src/test/java/ru/avm/sum/business/service/common/SAccountantTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="69" selection-start="818" selection-end="818" vertical-scroll-proportion="0.4525463">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="integration-tests-context.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sum-service/src/test/resources/spring/integration-tests-context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -234,7 +212,7 @@
       <file leaf-file-name="SAccountant.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SAccountant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="58" selection-start="1693" selection-end="1693" vertical-scroll-proportion="0.0">
+            <state line="33" column="17" selection-start="863" selection-end="863" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -242,19 +220,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InvocableHandlerMethod.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.1.1.RELEASE/spring-web-3.1.1.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <file leaf-file-name="Config.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="220" column="0" selection-start="8612" selection-end="8612" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CSecurity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CSecurity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="1059" selection-end="1108" vertical-scroll-proportion="0.0">
+            <state line="31" column="19" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -262,40 +231,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Security.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Security.java">
+      <file leaf-file-name="Basket.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Basket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
+            <state line="29" column="59" selection-start="644" selection-end="673" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ru.avm.sum.data.model.authority.Role" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/ru.avm.sum.data.model.authority.Role">
+      <file leaf-file-name="AFileStore.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/AFileStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ru.avm.sum.data.model.authority.User" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/ru.avm.sum.data.model.authority.User">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="35" selection-start="232" selection-end="232" vertical-scroll-proportion="-0.68">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ru.avm.sum.data.model.money.Basket" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/c8e9277d-18c5-41c0-987e-c84850059e5a/ru.avm.sum.data.model.money.Basket">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="39" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+            <state line="99" column="0" selection-start="3368" selection-end="3368" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -319,10 +267,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sum-present/src/main/resources/spring/root-context.xml" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/resources/spring/security-context.xml" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/views/contact.jsp" />
         <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/appServlet/controllers.xml" />
         <option value="$PROJECT_DIR$/sum-present/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/sum-present/src/main/java/net/schastny/contactmanager/web/SecurityProvider.java" />
@@ -346,33 +290,37 @@
         <option value="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SSecurity.java" />
         <option value="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/Config.java" />
         <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/servlet-context.xml" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/views/first.jsp" />
         <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/IBalance.java" />
         <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/sql/Balance.java" />
         <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Balance.java" />
         <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/stub/Balance.java" />
         <option value="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/controller/CSecurity.java" />
         <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/ISecurity.java" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/service/SSecurity.java" />
         <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Security.java" />
         <option value="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CSecurity.java" />
         <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/root-context.xml" />
         <option value="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/Config.java" />
-        <option value="$PROJECT_DIR$/sum-service/src/test/resources/spring/integration-tests-context.xml" />
-        <option value="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CAccountant.java" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/js/balance.js" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/js/category.js" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/js/currency.js" />
-        <option value="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SAccountant.java" />
         <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/AFileStore.java" />
+        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/css/demo_table.css" />
+        <option value="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/service/SSecurity.java" />
+        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/js/balance.js" />
+        <option value="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CAccountant.java" />
+        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/js/currency.js" />
+        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/js/category.js" />
+        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/js/basket.js" />
+        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/views/first.jsp" />
+        <option value="$PROJECT_DIR$/sum-service/src/test/java/ru/avm/sum/business/service/common/SAccountantTest.java" />
+        <option value="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SAccountant.java" />
+        <option value="$PROJECT_DIR$/sum-service/src/test/resources/spring/integration-tests-context.xml" />
       </list>
     </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
@@ -448,7 +396,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -463,7 +411,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1468,6 +1415,66 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-present" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-present" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1689,6 +1696,64 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="money" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="authority" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1922,6 +1987,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -1937,17 +2003,17 @@
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/sum-present/src/main/java" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -1961,6 +2027,11 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.avm.sum.data.dao.file" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.avm.sum.business" />
+      <recent name="ru.avm.sum.service" />
+      <recent name="ru.avm.sum" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\sum\sum-present\src\main\webapp\WEB-INF\spring" />
       <recent name="D:\projects\sum\sum-present\src\main\java" />
@@ -1968,13 +2039,40 @@
       <recent name="D:\projects\sum\sum-present\src\main\webapp\WEB-INF" />
       <recent name="D:\projects\sum\sum-present\src\main\webapp\WEB-INF\views" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="ru.avm.sum.business" />
-      <recent name="ru.avm.sum.service" />
-      <recent name="ru.avm.sum" />
-    </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.sum">
+  <component name="RunManager" selected="JUnit.SAccountantTest">
+    <configuration default="false" name="SAccountantTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.avm.sum.business.service.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="sum-service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.avm.sum.business.service.common" />
+      <option name="MAIN_CLASS_NAME" value="ru.avm.sum.business.service.common.SAccountantTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -2011,19 +2109,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -2050,6 +2135,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2103,7 +2201,7 @@
       <method />
     </configuration>
     <configuration default="false" name="sum" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0 - common">
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="sum-present:war">
           <settings>
@@ -2180,9 +2278,15 @@
         </option>
       </method>
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.sum" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SAccountantTest" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SAccountantTest" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -2245,7 +2349,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38988763" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45280898" sideWeight="0.4975278" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45280898" sideWeight="0.4975278" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33370787" sideWeight="0.49877602" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -2260,8 +2364,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2001224" sideWeight="0.66629213" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32837528" sideWeight="0.4975278" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29620564" sideWeight="0.547191" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1744186" sideWeight="0.547191" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46516854" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1744186" sideWeight="0.547191" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2336,34 +2440,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/authority/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="56" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/authority/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="65" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Identity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="38" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.1.1.RELEASE/spring-security-core-3.1.1.RELEASE-sources.jar!/org/springframework/security/core/authority/GrantedAuthorityImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="11" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.54451346">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sum-service/src/main/resources/sum-application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -2373,9 +2449,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sum-service/sum-service.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sum-service/src/main/webapp/WEB-INF/spring/servlet-context.xml">
@@ -2403,13 +2477,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sum-service/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="0" selection-start="1180" selection-end="1180" vertical-scroll-proportion="-6.8">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
@@ -2425,18 +2499,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="42" selection-start="1395" selection-end="1395" vertical-scroll-proportion="-14.153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/3.1.1.RELEASE/spring-security-web-3.1.1.RELEASE.jar!/org/springframework/security/web/context/SecurityContextPersistenceFilter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="16" selection-start="722" selection-end="722" vertical-scroll-proportion="-5.88">
-          <folding />
-        </state>
+        <state line="15" column="16" selection-start="722" selection-end="722" vertical-scroll-proportion="-5.88" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/SelectRequest.java">
@@ -2452,13 +2517,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/views/first.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="21" selection-start="1055" selection-end="1055" vertical-scroll-proportion="-8.576923">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2501,15 +2559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/service/SSecurity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/servlet-context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0">
@@ -2518,13 +2567,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="44" selection-start="1705" selection-end="1705" vertical-scroll-proportion="9.52">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
@@ -2540,53 +2589,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="9" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-service/src/test/java/ru/avm/sum/business/service/common/SAccountantTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-service/src/test/resources/spring/integration-tests-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/IBalance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="12" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/js/balance.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="90" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/js/category.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="94" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/js/currency.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -2600,16 +2605,12 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.1.1.RELEASE/spring-webmvc-3.1.1.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="846" selection-end="846" vertical-scroll-proportion="-6.88">
-          <folding />
-        </state>
+        <state line="15" column="22" selection-start="846" selection-end="846" vertical-scroll-proportion="-6.88" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.1.1.RELEASE/spring-webmvc-3.1.1.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="57" selection-start="7351" selection-end="7351" vertical-scroll-proportion="-6.88">
-          <folding />
-        </state>
+        <state line="95" column="57" selection-start="7351" selection-end="7351" vertical-scroll-proportion="-6.88" />
       </provider>
     </entry>
     <entry file="jar://C:/env/Java/jdk1.7.0_11/src.zip!/java/lang/System.java">
@@ -2619,42 +2620,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Balance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="0" selection-start="3675" selection-end="3675" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CAccountant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="0" selection-start="3587" selection-end="3587" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/ru.avm.sum.data.model.authority.Role">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Security.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="0" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CSecurity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1059" selection-end="1108" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2665,35 +2639,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/AFileStore.java">
+    <entry file="file://$PROJECT_DIR$/data/ru.avm.sum.data.model.authority.User">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="0" selection-start="6812" selection-end="6812" vertical-scroll-proportion="0.0">
+        <state line="1" column="35" selection-start="232" selection-end="232" vertical-scroll-proportion="-0.68" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/c8e9277d-18c5-41c0-987e-c84850059e5a/ru.avm.sum.data.model.money.Basket">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="58" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="474" selection-end="474" vertical-scroll-proportion="-7.8461537">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SAccountant.java">
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/css/demo_page.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="58" selection-start="1693" selection-end="1693" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/css/demo_table.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="16" selection-start="1803" selection-end="1803" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CSecurity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="13" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/ru.avm.sum.data.model.authority.User">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/service/SSecurity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="35" selection-start="232" selection-end="232" vertical-scroll-proportion="-0.68">
+        <state line="19" column="30" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/js/balance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="12" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/c8e9277d-18c5-41c0-987e-c84850059e5a/ru.avm.sum.data.model.money.Basket">
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/js/currency.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="39" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+        <state line="18" column="72" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/js/category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="127" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/js/basket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="38" selection-start="1804" selection-end="1808" vertical-scroll-proportion="-10.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/views/first.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.2735632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/AFileStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="0" selection-start="3368" selection-end="3368" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Balance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="52" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CAccountant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="13" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Basket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="59" selection-start="644" selection-end="673" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="19" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SAccountant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="17" selection-start="863" selection-end="863" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-service/src/test/resources/spring/integration-tests-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-service/src/test/java/ru/avm/sum/business/service/common/SAccountantTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="69" selection-start="818" selection-end="818" vertical-scroll-proportion="0.4525463">
           <folding />
         </state>
       </provider>

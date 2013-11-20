@@ -24,7 +24,7 @@ public class SAccountantTest {
 
     @Test
     public void testGetList() {
-        List<Deal> balance = accountant.list(new SelectRequest(0L, 100L, null, new Category("group")));
+        List<Deal> balance = accountant.list("user", new SelectRequest(0L, 100L, null, new Category("group")));
         Assert.assertEquals(balance.size(), 0);
     }
 

@@ -30,9 +30,8 @@ public class SAccountant {
 
     private final String root;
 
-    // ToDo: remove
     public SAccountant() {
-        this(".");
+        this(null);
     }
 
     public SAccountant(String root) {

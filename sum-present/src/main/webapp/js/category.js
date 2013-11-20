@@ -3,7 +3,7 @@ var Category = function () {
 };
 
 Category.prototype.load = function (self, user) {
-    Balance.request(this, 'http://localhost:8080/sum-service/rest/balance/graph', 'POST', user, function(self, data) {
+    Balance.request(this, user, 'http://localhost:8080/sum-service/rest/balance/' + user + '/graph', 'POST', '{}', function(self, user, data) {
         for (var i = 0; i < data.length; i++) {
             var category = data[i];
             self.data[category['name']] = category;
