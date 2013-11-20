@@ -114,6 +114,12 @@
             <artifactId>hibernate-commons-annotations</artifactId>
             <version>3.3.0.ga</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${org.springframework-version}</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -146,7 +152,7 @@
                 <configuration>
                     <skip>true</skip>
                     <includes>
-                        <include>**/SAccountantTest.java</include>
+                        <!--<include>**/SAccountantTest.java</include>-->
                     </includes>
                 </configuration>
             </plugin>
@@ -156,7 +162,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
                     <excludes>
-                        <exclude>**/SAccountantTest.java</exclude>
+                        <!--<exclude>**/SAccountantTest.java</exclude>-->
                     </excludes>
                 </configuration>
             </plugin>

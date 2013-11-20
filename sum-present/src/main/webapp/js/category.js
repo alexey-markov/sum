@@ -1,9 +1,10 @@
-var Category = function () {
+var Category = function (user) {
+    this.user = user;
     this.data = new Array();
 };
 
-Category.prototype.load = function (self, user) {
-    Balance.request(this, user, 'http://localhost:8080/sum-service/rest/balance/' + user + '/graph', 'POST', '{}', function(self, user, data) {
+Category.prototype.load = function (self) {
+    Balance.request(this, 'http://localhost:8080/sum-service/rest/balance/' + self.user + '/graph', 'POST', '{}', function(self, data) {
         for (var i = 0; i < data.length; i++) {
             var category = data[i];
             self.data[category['name']] = category;

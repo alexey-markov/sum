@@ -13,7 +13,7 @@ http://www.springframework.org/schema/security/spring-security.xsd">
         <logout logout-url="/logout" logout-success-url="/login.jsp"/>
 
         <anonymous username="guest" granted-authority="ROLE_ANONYMOUS"/>
-        <!--<remember-me/>-->
+        <remember-me/>
     </http>
 
     <beans:bean id="userService" class="ru.avm.sum.view.controller.CSecurity"/>

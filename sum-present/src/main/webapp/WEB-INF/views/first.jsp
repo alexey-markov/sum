@@ -19,8 +19,8 @@
     <script src="js/category.js"></script>
     <script>
         $(document).ready(function () {
-            var balance = new Balance($('#example'));
-            balance.load(balance, '${user_uid}');
+            var balance = new Balance('${user_uid}', $('#example'));
+            balance.load(balance);
         });
     </script>
 </head>
