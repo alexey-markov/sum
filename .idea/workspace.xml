@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4239c7aa-08b3-4c04-ae59-9e00b71aa108" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_3_1_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-service/src/test/java/ru/avm/sum/business/service/common/SAccountantTest.java" afterPath="$PROJECT_DIR$/sum-service/src/test/java/ru/avm/sum/business/service/common/SAccountantTest.java" />
+      <change type="DELETED" beforePath="W:\sum\.idea\libraries\Maven__sum_sum_data_1_0_SNAPSHOT.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SAccountant.java" afterPath="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SAccountant.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/js/balance.js" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/js/balance.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/js/basket.js" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/js/basket.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/js/category.js" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/js/category.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/js/currency.js" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/js/currency.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/views/first.jsp" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/views/first.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-data/pom.xml" afterPath="$PROJECT_DIR$/sum-data/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/pom.xml" afterPath="$PROJECT_DIR$/sum-present/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-service/pom.xml" afterPath="$PROJECT_DIR$/sum-service/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/root-context.xml" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/root-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/security.xml" afterPath="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/security.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/c8e9277d-18c5-41c0-987e-c84850059e5a/ru.avm.sum.data.model.money.Basket" afterPath="$PROJECT_DIR$/data/c8e9277d-18c5-41c0-987e-c84850059e5a/ru.avm.sum.data.model.money.Basket" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/c8e9277d-18c5-41c0-987e-c84850059e5a/ru.avm.sum.data.model.money.Deal" afterPath="$PROJECT_DIR$/data/c8e9277d-18c5-41c0-987e-c84850059e5a/ru.avm.sum.data.model.money.Deal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/c8e9277d-18c5-41c0-987e-c84850059e5a/ru.avm.sum.data.model.money.Event" afterPath="$PROJECT_DIR$/data/c8e9277d-18c5-41c0-987e-c84850059e5a/ru.avm.sum.data.model.money.Event" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/c8e9277d-18c5-41c0-987e-c84850059e5a/ru.avm.sum.data.model.money.Money" afterPath="$PROJECT_DIR$/data/c8e9277d-18c5-41c0-987e-c84850059e5a/ru.avm.sum.data.model.money.Money" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-data/sum-data.iml" afterPath="$PROJECT_DIR$/sum-data/sum-data.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-present/sum-present.iml" afterPath="$PROJECT_DIR$/sum-present/sum-present.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum-service/sum-service.iml" afterPath="$PROJECT_DIR$/sum-service/sum-service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sum.iml" afterPath="$PROJECT_DIR$/sum.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/sum_present_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/sum_present_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -22,13 +25,13 @@
     <file path="/fragment.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384937930455" ignored="false" />
     <file path="$PROJECT_DIR$/sum-service/src/test/java/ru/avm/sum/service/common/SAccountantTest.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366974904852" ignored="false" />
     <file path="/CSeciruty.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366976516243" ignored="false" />
-    <file path="$PROJECT_DIR$/../ContactManager/pom.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366976723530" ignored="false" />
+    <file path="W:/ContactManager/pom.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366976723530" ignored="false" />
     <file path="/root-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384256448283" ignored="false" />
     <file path="/security-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369302817985" ignored="false" />
     <file path="/CSecurity.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384330277858" ignored="false" />
     <file path="/servlet-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384167972438" ignored="false" />
     <file path="/SSecurity.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384934104999" ignored="false" />
-    <file path="/SAccountant.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384938563217" ignored="false" />
+    <file path="/SAccountant.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1385108813024" ignored="false" />
     <file path="/pom.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366987119081" ignored="false" />
     <file path="/Category.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366981786918" ignored="false" />
     <file path="/ISecurity.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366981959849" ignored="false" />
@@ -37,81 +40,81 @@
     <file path="/a.txt" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366990951343" ignored="false" />
     <file path="/hibernate.cfg.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366986856659" ignored="false" />
     <file path="/Config.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384254030386" ignored="false" />
-    <file path="/a.dummy" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384949543644" ignored="false" />
+    <file path="/a.dummy" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1385034930478" ignored="false" />
     <file path="/webmvc-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366991326948" ignored="false" />
     <file path="/application-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1366994415335" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/mobilesrv/.idea/workspace.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369240521421" ignored="false" />
+    <file path="W:/bank/mobilesrv/.idea/workspace.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369240521421" ignored="false" />
     <file path="/login.jsp" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369241624220" ignored="false" />
-    <file path="$PROJECT_DIR$/../ContactManager/src/main/webapp/WEB-INF/spring/security.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369303551508" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/cts/cts-client/src/main/java/ru/yota/bank/cts/TransactionsStorageImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369388920007" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-impl/src/main/java/ru/yota/bank/spoc/impl/service/TransactionsStorageServiceImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369666258736" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-impl/src/main/java/ru/yota/bank/spoc/impl/service/MessageTemplateServiceImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369303953346" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-impl/src/main/java/ru/yota/bank/spoc/impl/service/UserNotificationServiceImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369303953346" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/cts/cts-client/src/main/java/ru/yota/bank/cts/dao/impl/conversation/ConversationsDaoImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369388920007" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-web-portal/src/main/java/ru/yota/bank/spoc/web/provider/MessagingRestApiProviderImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369303969816" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-web-portal/src/main/webapp/WEB-INF/spring/webmvc-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369664203729" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-domain/src/main/java/ru/yota/bank/spoc/domain/ContactsHistory.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369303969816" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/cts/cts-client/src/main/java/ru/yota/bank/cts/dao/impl/contact/date/ContactHistoryByDateDaoImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369303969816" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/cts/cts-client/src/main/java/ru/yota/bank/cts/TransactionsStorage.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369388920007" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/cts/cts-client/src/main/java/ru/yota/bank/cts/dao/impl/Names.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369303969816" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/cts/cts-client/src/main/java/ru/yota/bank/cts/PeriodUtils.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369388920007" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-domain/src/main/java/ru/yota/bank/spoc/domain/ContactTransactionsHistory.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369303969816" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/cts/cts-client/src/test/java/ru/yota/bank/cts/configs/TransactionsStorageConfiguration.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369303969816" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-impl/src/main/java/ru/yota/bank/spoc/impl/handler/processing/in/IncomingPaymentDispatcher.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369664203729" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-impl/src/main/java/ru/yota/bank/config/cts/TransactionsStorageConfiguration.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369303969816" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-domain/src/main/java/ru/yota/bank/spoc/domain/Conversation.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369664203729" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/cts/cts-client/src/main/java/ru/yota/bank/cts/dao/impl/converter/kryo/KryoConverter.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369389380293" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/cts/cts-client/pom.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369389357151" ignored="false" />
+    <file path="W:/ContactManager/src/main/webapp/WEB-INF/spring/security.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369303551508" ignored="false" />
+    <file path="W:/bank/spoc/cts/cts-client/src/main/java/ru/yota/bank/cts/TransactionsStorageImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369388920007" ignored="false" />
+    <file path="W:/bank/spoc/spoc-impl/src/main/java/ru/yota/bank/spoc/impl/service/TransactionsStorageServiceImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369666258736" ignored="false" />
+    <file path="W:/bank/spoc/spoc-impl/src/main/java/ru/yota/bank/spoc/impl/service/MessageTemplateServiceImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369303953346" ignored="false" />
+    <file path="W:/bank/spoc/spoc-impl/src/main/java/ru/yota/bank/spoc/impl/service/UserNotificationServiceImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369303953346" ignored="false" />
+    <file path="W:/bank/spoc/cts/cts-client/src/main/java/ru/yota/bank/cts/dao/impl/conversation/ConversationsDaoImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369388920007" ignored="false" />
+    <file path="W:/bank/spoc/spoc-web-portal/src/main/java/ru/yota/bank/spoc/web/provider/MessagingRestApiProviderImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369303969816" ignored="false" />
+    <file path="W:/bank/spoc/spoc-web-portal/src/main/webapp/WEB-INF/spring/webmvc-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369664203729" ignored="false" />
+    <file path="W:/bank/spoc/spoc-domain/src/main/java/ru/yota/bank/spoc/domain/ContactsHistory.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369303969816" ignored="false" />
+    <file path="W:/bank/spoc/cts/cts-client/src/main/java/ru/yota/bank/cts/dao/impl/contact/date/ContactHistoryByDateDaoImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369303969816" ignored="false" />
+    <file path="W:/bank/spoc/cts/cts-client/src/main/java/ru/yota/bank/cts/TransactionsStorage.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369388920007" ignored="false" />
+    <file path="W:/bank/spoc/cts/cts-client/src/main/java/ru/yota/bank/cts/dao/impl/Names.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369303969816" ignored="false" />
+    <file path="W:/bank/spoc/cts/cts-client/src/main/java/ru/yota/bank/cts/PeriodUtils.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369388920007" ignored="false" />
+    <file path="W:/bank/spoc/spoc-domain/src/main/java/ru/yota/bank/spoc/domain/ContactTransactionsHistory.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369303969816" ignored="false" />
+    <file path="W:/bank/spoc/cts/cts-client/src/test/java/ru/yota/bank/cts/configs/TransactionsStorageConfiguration.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369303969816" ignored="false" />
+    <file path="W:/bank/spoc/spoc-impl/src/main/java/ru/yota/bank/spoc/impl/handler/processing/in/IncomingPaymentDispatcher.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369664203729" ignored="false" />
+    <file path="W:/bank/spoc/spoc-impl/src/main/java/ru/yota/bank/config/cts/TransactionsStorageConfiguration.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369303969816" ignored="false" />
+    <file path="W:/bank/spoc/spoc-domain/src/main/java/ru/yota/bank/spoc/domain/Conversation.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369664203729" ignored="false" />
+    <file path="W:/bank/spoc/cts/cts-client/src/main/java/ru/yota/bank/cts/dao/impl/converter/kryo/KryoConverter.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369389380293" ignored="false" />
+    <file path="W:/bank/spoc/cts/cts-client/pom.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369389357151" ignored="false" />
     <file path="/security.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384257760164" ignored="false" />
     <file path="/IncomingPaymentDispatcher.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369395168820" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-impl/src/main/java/ru/yota/bank/spoc/service/TransactionsStorageService.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369666352193" ignored="false" />
+    <file path="W:/bank/spoc/spoc-impl/src/main/java/ru/yota/bank/spoc/service/TransactionsStorageService.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369666352193" ignored="false" />
     <file path="/TransactionsStorageService.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369666340484" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-web-portal/src/main/java/ru/yota/bank/spoc/web/provider/HistoryRestApiProviderImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369388317513" ignored="false" />
+    <file path="W:/bank/spoc/spoc-web-portal/src/main/java/ru/yota/bank/spoc/web/provider/HistoryRestApiProviderImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369388317513" ignored="false" />
     <file path="/TransactionsStorageServiceImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369666255428" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-web-portal/src/main/java/ru/yota/bank/spoc/web/provider/ProcessingRestApiProviderImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369902201955" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-web-portal/src/test/java/ru/yota/bank/spoc/web/provider/ProcessingRestApiProviderTest.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369388422874" ignored="false" />
+    <file path="W:/bank/spoc/spoc-web-portal/src/main/java/ru/yota/bank/spoc/web/provider/ProcessingRestApiProviderImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369902201955" ignored="false" />
+    <file path="W:/bank/spoc/spoc-web-portal/src/test/java/ru/yota/bank/spoc/web/provider/ProcessingRestApiProviderTest.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369388422874" ignored="false" />
     <file path="/ProcessingRestApiProviderTest.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369388399119" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-web-portal/src/test/java/ru/yota/bank/spoc/web/provider/HistoryRestApiProviderImplTest.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369388461332" ignored="false" />
+    <file path="W:/bank/spoc/spoc-web-portal/src/test/java/ru/yota/bank/spoc/web/provider/HistoryRestApiProviderImplTest.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369388461332" ignored="false" />
     <file path="/HistoryRestApiProviderImplTest.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369388442458" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/cts/cts-client/src/main/java/ru/yota/bank/cts/dao/impl/requisites/CtsRequisitesDaoImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369388920007" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/cts/cts-client/src/main/java/ru/yota/bank/cts/dao/impl/conversation/ContactTransactionsHistorySearcher.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369388920007" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/cts/cts-client/src/test/java/ru/yota/bank/cts/TransactionsStorageImplTest.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369390282855" ignored="false" />
+    <file path="W:/bank/spoc/cts/cts-client/src/main/java/ru/yota/bank/cts/dao/impl/requisites/CtsRequisitesDaoImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369388920007" ignored="false" />
+    <file path="W:/bank/spoc/cts/cts-client/src/main/java/ru/yota/bank/cts/dao/impl/conversation/ContactTransactionsHistorySearcher.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369388920007" ignored="false" />
+    <file path="W:/bank/spoc/cts/cts-client/src/test/java/ru/yota/bank/cts/TransactionsStorageImplTest.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369390282855" ignored="false" />
     <file path="/index.jsp" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369407642164" ignored="false" />
     <file path="/ContactController.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384173621957" ignored="false" />
     <file path="/SecurityProvider.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369667451996" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-domain/src/main/java/ru/yota/bank/spoc/domain/CustomerTransaction.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369663882709" ignored="false" />
+    <file path="W:/bank/spoc/spoc-domain/src/main/java/ru/yota/bank/spoc/domain/CustomerTransaction.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369663882709" ignored="false" />
     <file path="/CustomerTransaction.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369663438665" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-domain/src/main/java/ru/yota/bank/spoc/domain/TransactionErrorCode.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369664517062" ignored="false" />
+    <file path="W:/bank/spoc/spoc-domain/src/main/java/ru/yota/bank/spoc/domain/TransactionErrorCode.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369664517062" ignored="false" />
     <file path="/TransactionErrorCode.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369664512874" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-impl/src/test/resources/spring/SmsLoggerCamelEndpointIntTest-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369664203729" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-impl/src/test/resources/spring/BankServiceTest-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369664203729" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-impl/src/main/resources/spring/spoc/internal/messaging-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369664203729" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-impl/src/main/java/ru/yota/bank/spoc/impl/handler/processing/out/PaymentMessageHandlerP2PRegistered.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369664203729" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-impl/src/main/java/ru/yota/bank/spoc/impl/dao/oracle/BankContactbookDaoImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369732250075" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/3rd-party-services/sv-integration/src/main/java/ru/yota/bank/sv/integration/client/impl/SvProcessingServiceImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369901672485" ignored="false" />
+    <file path="W:/bank/spoc/spoc-impl/src/test/resources/spring/SmsLoggerCamelEndpointIntTest-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369664203729" ignored="false" />
+    <file path="W:/bank/spoc/spoc-impl/src/test/resources/spring/BankServiceTest-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369664203729" ignored="false" />
+    <file path="W:/bank/spoc/spoc-impl/src/main/resources/spring/spoc/internal/messaging-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369664203729" ignored="false" />
+    <file path="W:/bank/spoc/spoc-impl/src/main/java/ru/yota/bank/spoc/impl/handler/processing/out/PaymentMessageHandlerP2PRegistered.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369664203729" ignored="false" />
+    <file path="W:/bank/spoc/spoc-impl/src/main/java/ru/yota/bank/spoc/impl/dao/oracle/BankContactbookDaoImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369732250075" ignored="false" />
+    <file path="W:/bank/spoc/3rd-party-services/sv-integration/src/main/java/ru/yota/bank/sv/integration/client/impl/SvProcessingServiceImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369901672485" ignored="false" />
     <file path="/SvProcessingServiceImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369750436501" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/3rd-party-services/sv-integration/src/main/java/ru/yota/bank/services/processing/impl/ProcessingServiceImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369902426204" ignored="false" />
+    <file path="W:/bank/spoc/3rd-party-services/sv-integration/src/main/java/ru/yota/bank/services/processing/impl/ProcessingServiceImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369902426204" ignored="false" />
     <file path="/ProcessingServiceImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369747428676" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-web-portal/src/main/java/ru/yota/bank/spoc/web/provider/util/PaymentRequestValidator.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369901396887" ignored="false" />
+    <file path="W:/bank/spoc/spoc-web-portal/src/main/java/ru/yota/bank/spoc/web/provider/util/PaymentRequestValidator.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369901396887" ignored="false" />
     <file path="/PaymentRequestValidator.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369901315659" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-impl/src/main/resources/messages.properties" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369902096942" ignored="false" />
+    <file path="W:/bank/spoc/spoc-impl/src/main/resources/messages.properties" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369902096942" ignored="false" />
     <file path="/ProcessingRestApiProviderImpl.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369902198132" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/spoc/spoc-impl/src/main/java/ru/yota/bank/spoc/impl/handler/processing/out/PaymentMessageHandlerPhysical.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369902368730" ignored="false" />
-    <file path="/Dummy.txt" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384948241222" ignored="false" />
+    <file path="W:/bank/spoc/spoc-impl/src/main/java/ru/yota/bank/spoc/impl/handler/processing/out/PaymentMessageHandlerPhysical.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1369902368730" ignored="false" />
+    <file path="/Dummy.txt" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1385036753169" ignored="false" />
     <file path="/first.jsp" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384786122081" ignored="false" />
     <file path="/AFileStore.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384333840953" ignored="false" />
     <file path="/Balance.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384248200180" ignored="false" />
     <file path="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/security/authority.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384250736074" ignored="false" />
     <file path="/User.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384252231117" ignored="false" />
-    <file path="/balance.js" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384951241092" ignored="false" />
+    <file path="/balance.js" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1385038337035" ignored="false" />
     <file path="/currency.js" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384951450531" ignored="false" />
     <file path="/CAccountant.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384331580465" ignored="false" />
     <file path="/integration-tests-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384938434093" ignored="false" />
     <file path="/demo_table.css" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384932841603" ignored="false" />
-    <file path="/basket.js" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384952251438" ignored="false" />
+    <file path="/basket.js" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1385109086581" ignored="false" />
     <file path="/category.js" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384951423970" ignored="false" />
     <file path="/SAccountantTest.java" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384937925230" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank/mobilesrv/mobile-server/src/main/resources/spring/config-server-properties-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384939815708" ignored="false" />
+    <file path="W:/bank/mobilesrv/mobile-server/src/main/resources/spring/config-server-properties-context.xml" changelist="4239c7aa-08b3-4c04-ae59-9e00b71aa108" time="1384939815708" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +129,8 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -162,8 +167,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -176,7 +179,7 @@
       <file leaf-file-name="first.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/views/first.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="22" selection-start="985" selection-end="985" vertical-scroll-proportion="-8.230769">
+            <state line="22" column="22" selection-start="985" selection-end="985" vertical-scroll-proportion="-0.65384614">
               <folding />
             </state>
           </provider>
@@ -185,7 +188,7 @@
       <file leaf-file-name="balance.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/js/balance.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="16" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.0">
+            <state line="28" column="0" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -209,21 +212,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basket.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="basket.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/js/basket.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="153" column="29" selection-start="6339" selection-end="6339" vertical-scroll-proportion="0.0">
+            <state line="21" column="0" selection-start="776" selection-end="776" vertical-scroll-proportion="0.51428574">
               <folding>
-                <marker date="1384952530076" expanded="true" signature="1142:1161" placeholder="..." />
+                <marker date="1385109110403" expanded="true" signature="345:352" placeholder="..." />
+                <marker date="1385109110403" expanded="true" signature="753:772" placeholder="..." />
+                <marker date="1385109110403" expanded="true" signature="1271:1290" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sum_present_war_exploded.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/artifacts/sum_present_war_exploded.xml">
+      <file leaf-file-name="CAccountant.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CAccountant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.77440345">
+            <state line="99" column="20" selection-start="3477" selection-end="3477" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SAccountant.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SAccountant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="140" column="44" selection-start="4028" selection-end="4028" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Balance.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Balance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="0" selection-start="1371" selection-end="1371" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AFileStore.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/AFileStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="0" selection-start="2708" selection-end="2708" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -247,51 +279,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/appServlet/controllers.xml" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/java/net/schastny/contactmanager/web/SecurityProvider.java" />
-        <option value="$PROJECT_DIR$/sum-data/pom.xml" />
-        <option value="$PROJECT_DIR$/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/java/net/schastny/contactmanager/web/ContactController.java" />
-        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Deal.java" />
-        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Basket.java" />
-        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/security/Role.java" />
-        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/security/authority.java" />
-        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/security/User.java" />
-        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/authority/User.java" />
-        <option value="$PROJECT_DIR$/sum-service/src/main/webapp/WEB-INF/spring/servlet-context.xml" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/java/net/schastny/contactmanager/web/WController.java" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/controller/WController.java" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" />
-        <option value="$PROJECT_DIR$/sum-service/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SSecurity.java" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/Config.java" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/servlet-context.xml" />
-        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/IBalance.java" />
-        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/sql/Balance.java" />
-        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Balance.java" />
-        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/stub/Balance.java" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/controller/CSecurity.java" />
-        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/ISecurity.java" />
-        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Security.java" />
-        <option value="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CSecurity.java" />
-        <option value="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/Config.java" />
-        <option value="$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/AFileStore.java" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/css/demo_table.css" />
         <option value="$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/service/SSecurity.java" />
         <option value="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CAccountant.java" />
-        <option value="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SAccountant.java" />
         <option value="$PROJECT_DIR$/sum-service/src/test/resources/spring/integration-tests-context.xml" />
         <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/root-context.xml" />
         <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/security.xml" />
-        <option value="$PROJECT_DIR$/sum-service/pom.xml" />
         <option value="$PROJECT_DIR$/sum-service/src/test/java/ru/avm/sum/business/service/common/SAccountantTest.java" />
         <option value="$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/views/first.jsp" />
-        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/js/balance.js" />
         <option value="$PROJECT_DIR$/sum-present/src/main/webapp/js/category.js" />
         <option value="$PROJECT_DIR$/sum-present/src/main/webapp/js/currency.js" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/sum_present_war_exploded.xml" />
+        <option value="$PROJECT_DIR$/sum-present/pom.xml" />
+        <option value="$PROJECT_DIR$/sum-data/pom.xml" />
+        <option value="$PROJECT_DIR$/sum-service/pom.xml" />
+        <option value="$PROJECT_DIR$/sum-present/src/main/webapp/js/balance.js" />
+        <option value="$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SAccountant.java" />
         <option value="$PROJECT_DIR$/sum-present/src/main/webapp/js/basket.js" />
       </list>
     </option>
@@ -308,11 +310,6 @@
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
-    </option>
-    <option name="enabledProfiles">
-      <list>
-        <option value="artifactory" />
-      </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -347,23 +344,13 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
       </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Profiles" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProfilesNode" />
-        </PATH_ELEMENT>
-      </PATH>
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -391,6 +378,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -419,6 +408,194 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="sum-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="sum-present" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -446,70 +623,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sum-present" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sum-present" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -565,10 +678,228 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="money" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum-data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="file" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -578,22 +909,22 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="MavenSettings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/sum-present/src/main/java" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -689,6 +1020,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -715,19 +1059,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -919,35 +1250,35 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2858017" sideWeight="0.547191" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2854856" sideWeight="0.5597826" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38988763" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45280898" sideWeight="0.4975278" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4402174" sideWeight="0.4975278" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33370787" sideWeight="0.49877602" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38907468" sideWeight="0.4994664" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44044945" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33370787" sideWeight="0.500612" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33444816" sideWeight="0.500612" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951945" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2858017" sideWeight="0.547191" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2001224" sideWeight="0.66629213" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20010673" sideWeight="0.5597826" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32837528" sideWeight="0.4975278" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29620564" sideWeight="0.547191" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46516854" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29615796" sideWeight="0.5597826" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46413043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1744186" sideWeight="0.547191" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38907468" sideWeight="0.50053364" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1020,307 +1351,58 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/3.1.1.RELEASE/spring-security-web-3.1.1.RELEASE.jar!/org/springframework/security/web/context/SecurityContextPersistenceFilter.class">
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/views/first.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="16" selection-start="722" selection-end="722" vertical-scroll-proportion="-5.88" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/SelectRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
+        <state line="22" column="22" selection-start="985" selection-end="985" vertical-scroll-proportion="-0.65384614">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/sql/Balance.java">
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/sum_present_war_exploded.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="32" selection-start="3048" selection-end="3048" vertical-scroll-proportion="-20.32">
+        <state line="7" column="94" selection-start="437" selection-end="437" vertical-scroll-proportion="0.13662457" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-present/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="26" selection-start="862" selection-end="862" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/stub/Balance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="32" selection-start="3778" selection-end="3778" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="24" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/ISecurity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="20" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/servlet-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="44" selection-start="1705" selection-end="1705" vertical-scroll-proportion="9.52">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/IBalance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="12" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.1.1.RELEASE/spring-core-3.1.1.RELEASE-sources.jar!/org/springframework/util/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="0" selection-start="6601" selection-end="6601" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.1.1.RELEASE/spring-webmvc-3.1.1.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="846" selection-end="846" vertical-scroll-proportion="-6.88" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.1.1.RELEASE/spring-webmvc-3.1.1.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="57" selection-start="7351" selection-end="7351" vertical-scroll-proportion="-6.88" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/env/Java/jdk1.7.0_11/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1027" column="74" selection-start="42484" selection-end="42484" vertical-scroll-proportion="-7.56">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/ru.avm.sum.data.model.authority.Role">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Security.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.1.1.RELEASE/spring-web-3.1.1.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="220" column="0" selection-start="8612" selection-end="8612" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/ru.avm.sum.data.model.authority.User">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="35" selection-start="232" selection-end="232" vertical-scroll-proportion="-0.68" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/c8e9277d-18c5-41c0-987e-c84850059e5a/ru.avm.sum.data.model.money.Basket">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="58" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="474" selection-end="474" vertical-scroll-proportion="-7.8461537">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/css/demo_page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/css/demo_table.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="16" selection-start="1803" selection-end="1803" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CSecurity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/AFileStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="0" selection-start="3368" selection-end="3368" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Balance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="52" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Basket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="59" selection-start="644" selection-end="673" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CAccountant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="13" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/service/SSecurity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/controller/CSecurity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="13" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-service/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="56" selection-start="1968" selection-end="1968" vertical-scroll-proportion="-19.12">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.1.1.RELEASE/spring-context-3.1.1.RELEASE.jar!/org/springframework/stereotype/Controller.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="401" selection-end="401" vertical-scroll-proportion="0.18704157">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SAccountant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-service/src/main/resources/sum-application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="49" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/root-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="70" selection-start="1650" selection-end="1650" vertical-scroll-proportion="-23.8">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/spring/security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="19" selection-start="960" selection-end="960" vertical-scroll-proportion="-10.88">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/java/ru/avm/sum/view/controller/WController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sum-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="51" selection-start="4348" selection-end="4348" vertical-scroll-proportion="0.0">
+        <state line="30" column="59" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-data/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="26" selection-start="652" selection-end="652" vertical-scroll-proportion="0.583691">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/c8e9277d-18c5-41c0-987e-c84850059e5a/ru.avm.sum.data.model.money.Basket">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="41" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sum-service/src/test/java/ru/avm/sum/business/service/common/SAccountantTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="38" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="24" column="13" selection-start="800" selection-end="800" vertical-scroll-proportion="0.34334764">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum-service/src/main/webapp/WEB-INF/spring/servlet-context.xml">
+    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/js/currency.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="47" selection-start="672" selection-end="672" vertical-scroll-proportion="-3.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sum-service/src/test/resources/spring/integration-tests-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="64" selection-start="701" selection-end="701" vertical-scroll-proportion="0.0">
+        <state line="6" column="17" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1332,40 +1414,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/js/currency.js">
+    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/model/money/Deal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
+        <state line="11" column="13" selection-start="258" selection-end="258" vertical-scroll-proportion="0.33193278">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/WEB-INF/views/first.jsp">
+    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/Balance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="22" selection-start="985" selection-end="985" vertical-scroll-proportion="-8.230769">
+        <state line="54" column="0" selection-start="1371" selection-end="1371" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-data/src/main/java/ru/avm/sum/data/dao/file/AFileStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="0" selection-start="2708" selection-end="2708" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/service/SAccountant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="140" column="44" selection-start="4028" selection-end="4028" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum-service/src/main/java/ru/avm/sum/business/controller/CAccountant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="20" selection-start="3477" selection-end="3477" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/js/balance.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="16" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.0">
+        <state line="28" column="0" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sum-present/src/main/webapp/js/basket.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="29" selection-start="6339" selection-end="6339" vertical-scroll-proportion="0.0">
+        <state line="21" column="0" selection-start="776" selection-end="776" vertical-scroll-proportion="0.51428574">
           <folding>
-            <marker date="1384952530076" expanded="true" signature="1142:1161" placeholder="..." />
+            <marker date="1385109110403" expanded="true" signature="345:352" placeholder="..." />
+            <marker date="1385109110403" expanded="true" signature="753:772" placeholder="..." />
+            <marker date="1385109110403" expanded="true" signature="1271:1290" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/sum_present_war_exploded.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.77440345">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1424,12 +1522,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>sum</last-edited>
+          <last-edited>sum-service</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

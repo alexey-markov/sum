@@ -31,7 +31,7 @@ Balance.prototype.load = function (self) {
 
 Balance.prototype.show = function (self, data) {
     for (var i = 0; i < data.length; i++) {
-        var basket = new Basket(self, data[i]);
+        var basket = new Basket(self, data[i], 100 / data.length);
         basket.open(basket);
     }
 };

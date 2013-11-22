@@ -73,7 +73,7 @@ public class SAccountant {
     }
 
     public boolean remove(String user, Deal deal) {
-        return balance(user).insert(deal);
+        return balance(user).remove(deal);
     }
 
     public List<Deal> list(String user, Date from, Date till, Basket basket, Category category) {

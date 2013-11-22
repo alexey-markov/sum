@@ -1,13 +1,16 @@
-var Basket = function (balance, data) {
+var Basket = function (balance, data, length) {
     this.balance = balance;
     this.user = balance.user;
     this.data = data;
+    this.length = length;
 };
 
 Basket.prototype.open = function (self) {
     var parent = self.balance.table;
     var signal = self.data.name;
-    parent.find('tr#basket_title').append('<th colspan="2">' + signal + '</th>').children('th').editable(function (value, settings) {
+    parent.find('tr#basket_title')
+        .append('<th colspan="2" style="width: ' + self.length + '%">' + signal + '</th>')
+        .children('th').editable(function (value, settings) {
         self.data.name = value;
         Balance.request(self, 'http://localhost:8080/sum-service/rest/balance/' + self.user + '/basket', 'POST', self.data);
         return value;
@@ -15,7 +18,8 @@ Basket.prototype.open = function (self) {
         width: "100%"
     });
     var place = parent.find('tr#basket_table');
-    place.append('<td><input id="insert_' + signal + '" type="image" src="images/add.png"/>'
+    place.append('<td style="vertical-align: top">'
+        + '<input id="insert_' + signal + '" type="image" src="images/add.png"/>'
         + '<input id="remove_' + signal + '" type="image" src="images/remove.png"/></td>');
     $('tr#basket_table input#insert_' + signal).on('click', function () {
         Basket.prototype.insert(self);
@@ -151,7 +155,10 @@ Basket.prototype.insert = function (self) {
 Basket.prototype.remove = function (self) {
     var select = Basket.prototype.selected(self);
     for (var i = 0; i < select.length; i++) {
-        console.log(select[i]);
-        console.log(self.table.data(select[i]));
+        var source = select[i];
+        console.log(source);
+        var aPos = self.table.fnGetPosition(source);
+        var deal = self.table.fnGetData(aPos);
+        Balance.request(self, 'http://localhost:8080/sum-service/rest/balance/' + self.user + '/deal', 'DELETE', deal, self.load);
     }
 }
